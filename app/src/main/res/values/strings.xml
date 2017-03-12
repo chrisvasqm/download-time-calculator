@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Down</string>
+    <string name="menuRate">Rate this app</string>
+    <string name="menuContact">Contact</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuAbout">About</string>
+    <string name="menuAboutBtn">Patch notes</string>
+    <string name="menuAboutVersion">Version</string>
+
+    <string name="app_intro">Intro</string>
+    <string name="introSkip">Skip</string>
+    <string name="introDone">Done</string>
+
+    <string name="slideTittle">Hi there!</string>
+    <string name="slideTittle2">First</string>
+    <string name="slideTittle3">Second</string>
+    <string name="slideTittle4">Third</string>
+
+    <string name="slideDescription">Let me guide you on how to use this app</string>
+    <string name="slideDescription2">Type in the file size that you wish and it\'s unit</string>
+    <string name="slideDescription3">Select how fast is your internet speed connection</string>
+    <string name="slideDescription4">Slide the progress bar to match how much you already have downloaded and that\'s it!\n\nGo give it a try</string>
+
+    <string name="sFileSize">File size</string>
+    <string name="sEstSpeed">Estimated Speed</string>
+    <string name="sProgress">Progress</string>
+    <string name="sBarPercentage">0%</string>
+    <string name="sBtnCalculate">Calculate</string>
+    <string name="sBtnAlert">Close</string>
+    <string name="sWorkInProgress">Under construction :)</string>
+
+    <string name="stringDays">days(s)</string>
+    <string name="stringWeeks">week(s)</string>
+    <string name="stringMonths">month(s)</string>
+    <string name="stringYears">year(s)</string>
+
+    <string name="sDownloadMessage">Download should be done in: \n\n</string>
+    <string name="fyi">Results may vary depending on the internet connection stability of your device.</string>
+
+    <string name="tittleChris">"Christian's profile"</string>
+    <string name="nameChris">Christian Vásquez</string>
+    <string name="roleChris">Creator</string>
+    <string name="descriptionChris">A coder from another mother,</string>
+
+    <string name="tittleDavid">"David's profile"</string>
+    <string name="nameDavid">David Peña</string>
+    <string name="roleDavid">Coding sensei</string>
+    <string name="descriptionDavid">A confirmed badass,</string>
+
+    <string name="tittleAle">"Alejandro's profile"</string>
+    <string name="nameAle">Alejandro Martinez</string>
+    <string name="roleAle">Design master</string>
+    <string name="descriptionAle">An artbender,</string>
+    <string name="nationalityRD">from Domincan Republic</string>
+
+    <string-array name="spinner1">
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+    </string-array>
+    <string-array name="spinner2">
+        <item>Kbps</item>
+        <item>Mbps</item>
+        <item>Gbps</item>
+        <item>Tbps</item>
+        <item>KB/s</item>
+        <item>MB/s</item>
+        <item>GB/s</item>
+        <item>TB/s</item>
+    </string-array>
+
+
+    <string name="appchangelogs">
+
+        <b>Patch v1.0 is FINALLY HERE!</b>\n\n
+
+        - Added a shiny new little intro :D\n
+        - Added Alejandro\'s Profile\n
+        - Added the About screen with some sexy patch notes for all the nerds, 8/8 m8\n\n
+
+        <b>Side note:</b>\n\n
+
+        Plans have now changed. After hours of trying to implement the settings with options to customize all the colors I decided to do that later because I am a n00b. bye :D\n\n
+
+        <b>Patch v0.7.1 [Hotfix] notes:</b>\n\n
+
+        - Added some missing translations (don\'t ever release a new update at 2am, ever.)\n
+        - Fixed an issue with results not showing properly when the result was in 1 day\'s range\n
+        - New app icon version #3 because there is always room for improvement :D\n\n
+
+        <b>Known bugs:</b>\n\n
+
+        - Super Ultra Bug called: None. You know there MUST be something really bad when your code \"just works\" ಠ_ಠ\n\n
+
+        <b>Coming soon:</b>\n\n
+
+        - The option to be able to toggle between Dark and Light mode\n
+        - App v1.0 HYPE (づ｡◕‿‿◕｡)づ\n\n
+
+        <b>Patch v0.7.0 note:</b>\n\n
+
+        - Added Kbps, Mbps, Gbps and Tbps\n
+        - Added Rate this app option to Menu\n
+        - Added Contact to Menu\n
+        - Added Profiles in Contact\n
+        - Added years, months and weeks to results.\n
+        - Now the app will be called: Down\n
+        - Added a little note below the Calculate button\n
+        - Moved "Progress" on top of the % number in Main Screen\n
+        - Coming soon: Theme Settings and more\n\n
+
+        <b>Known bugs:</b>\n\n
+        - A wild bug that prevents results from showing. Expect hotfix soon.\n
+        - Missing some spanish translations\n\n
+
+        <b>Patch v0.3.1 note:</b>\n\n
+
+        - Small update to the new icon\n
+        - Added support for Spanish language (depends on your device\'s language)\n
+        - Added Days (DD) to the time results\n\n
+
+        <b>Known bugs:</b>\n\n
+        - Second drop down list not showing properly\n\n
+
+        <b>Patch v0.3 note:</b>\n\n
+
+        - New icon  :)\n
+        - Fixed app crashes caused when no input was received on any TextField\n
+        - Fixed percentage bar not showing properly in lower screen sizes/resolutions\n
+        - Fixed time not showing zeros if the result value was lower than 10\n
+        - Fixed File Size text field auto focusing unintentionally because Views equality is now a thing\n\n
+
+        <b>Known bugs:</b>\n\n
+        - Second drop down list not showing properly\n\n
+
+        <b>Patch v0.25 note:</b>\n\n
+
+        - Added support for API 15 (Android 4.0.3+)\n\n
+
+        <b>Upcoming fixes:</b>\n\n
+        - Time not showing correctly when the numbers are lower than 10\n
+        - Second drop down list not showing properly\n\n
+
+        <b>Patch v0.21 note: </b>\n\n
+
+        - Much app, very code, so first release, wow!
+    </string>
+
+</resources>

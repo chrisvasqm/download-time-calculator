@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.christianv07.dev.speedy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.BrandedLaunch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".contactActivities.ContactActivity"
+            android:label="@string/menuContact"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".contactActivities.ProfChrisActivity"
+            android:label="@string/tittleChris"
+            android:parentActivityName=".contactActivities.ContactActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contactActivities.ContactActivity" />
+        </activity>
+
+        <activity
+            android:name=".contactActivities.ProfDavidActivity"
+            android:label="@string/tittleDavid"
+            android:parentActivityName=".contactActivities.ContactActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contactActivities.ContactActivity" />
+        </activity>
+
+        <activity
+            android:name=".contactActivities.ProfAleActivity"
+            android:label="@string/tittleAle"
+            android:parentActivityName=".contactActivities.ContactActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contactActivities.ContactActivity" />
+        </activity>
+
+        <activity
+            android:name=".aboutActivity.AboutActivity"
+            android:label="@string/menuAbout"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT.ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".introActivity.MyIntro"
+            android:label="@string/app_intro"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.christianv07.dev.speedy"
+    android:versionCode="8"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.christianv07.dev.speedy.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.BrandedLaunch" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.christianv07.dev.speedy.contactActivities.ContactActivity"
+            android:label="@string/menuContact"
+            android:parentActivityName="com.christianv07.dev.speedy.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.christianv07.dev.speedy.contactActivities.ProfChrisActivity"
+            android:label="@string/tittleChris"
+            android:parentActivityName="com.christianv07.dev.speedy.contactActivities.ContactActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contactActivities.ContactActivity" />
+        </activity>
+        <activity
+            android:name="com.christianv07.dev.speedy.contactActivities.ProfDavidActivity"
+            android:label="@string/tittleDavid"
+            android:parentActivityName="com.christianv07.dev.speedy.contactActivities.ContactActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contactActivities.ContactActivity" />
+        </activity>
+        <activity
+            android:name="com.christianv07.dev.speedy.contactActivities.ProfAleActivity"
+            android:label="@string/tittleAle"
+            android:parentActivityName="com.christianv07.dev.speedy.contactActivities.ContactActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contactActivities.ContactActivity" />
+        </activity>
+        <activity
+            android:name="com.christianv07.dev.speedy.aboutActivity.AboutActivity"
+            android:label="@string/menuAbout"
+            android:parentActivityName="com.christianv07.dev.speedy.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT.ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.christianv07.dev.speedy.introActivity.MyIntro"
+            android:label="@string/app_intro"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

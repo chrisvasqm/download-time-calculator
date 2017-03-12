@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_selector_ripple.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.8.6.0\\res\\drawable-v21\\md_btn_selector_ripple.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_selector_ripple_dark.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\drawable-v21\\md_btn_selector_ripple_dark.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_selector_ripple_dark.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.8.6.0\\res\\drawable-v21\\md_btn_selector_ripple_dark.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_selector_ripple.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\drawable-v21\\md_btn_selector_ripple.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_shape.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\drawable-v21\\md_btn_shape.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_shape.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.8.6.0\\res\\drawable-v21\\md_btn_shape.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

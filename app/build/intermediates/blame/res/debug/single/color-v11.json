@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

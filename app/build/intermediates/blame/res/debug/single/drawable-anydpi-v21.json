@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\md_nav_back.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\drawable-anydpi-v21\\md_nav_back.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_skip_white_24px.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\2343d3cf1452eb3daa377a00e90da810fd55d396\\output\\res\\drawable-anydpi-v21\\ic_skip_white_24px.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\md_nav_back.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.8.6.0\\res\\drawable-anydpi-v21\\md_nav_back.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_skip_white_24px.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.github.paolorotolo\\appintro\\4.0.0\\res\\drawable-anydpi-v21\\ic_skip_white_24px.xml"
+    }
+]

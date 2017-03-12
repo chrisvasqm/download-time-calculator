@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\c99285de0625f0848f1d6daca561f9b9b527b16e\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    }
+]

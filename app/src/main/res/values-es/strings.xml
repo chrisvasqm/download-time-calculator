@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Down</string>
+    <string name="menuRate">Califica esta app</string>
+    <string name="menuContact">Contacto</string>
+    <string name="menuSettings">Ajustes</string>
+    <string name="menuAbout">Acerca</string>
+    <string name="menuAboutBtn">Notas de cambios</string>
+    <string name="menuAboutVersion">Version </string>
+
+    <string name="app_intro">Intro</string>
+    <string name="introSkip">Saltar</string>
+    <string name="introDone">Terminar</string>
+
+    <string name="slideTittle">¡Hola!</string>
+    <string name="slideTittle2">Primer paso</string>
+    <string name="slideTittle3">Segundo paso</string>
+    <string name="slideTittle4">Tercer paso</string>
+
+    <string name="slideDescription">Permiteme enseñarte a usar esta app</string>
+    <string name="slideDescription2">Escribe el tamaño del archivo que desees y su unidad</string>
+    <string name="slideDescription3">Selecciona que tan rápida es la velocidad de tu internet</string>
+    <string name="slideDescription4">Mueve la barra de progreso para indicar cuanto porcentaje ya tienes descargado y listo\n\n¡Pruebalo por ti mismo!</string>
+
+    <string name="sFileSize">Tamaño de archivo</string>
+    <string name="sEstSpeed">Velocidad estimada</string>
+    <string name="sProgress">Progreso</string>
+    <string name="sBarPercentage">0%</string>
+    <string name="sBtnCalculate">Calcular</string>
+    <string name="sBtnAlert">Cerrar</string>
+    <string name="sWorkInProgress">En contruccion :)</string>
+
+    <string name="stringDays">día(s)</string>
+    <string name="stringWeeks">semana(s)</string>
+    <string name="stringMonths">mes(es)</string>
+    <string name="stringYears">año(s)</string>
+
+    <string name="sDownloadMessage">La descarga deberia acabar en: \n\n</string>
+    <string name="fyi">El resultado puede variar dependiendo de la estabilidad de la conexion de internet de tu dispositivo</string>
+
+    <string name="tittleChris">Perfil de Christian</string>
+    <string name="nameChris">Christian Vásquez</string>
+    <string name="roleChris">Creador</string>
+    <string name="descriptionChris">Un programador de otra cuna</string>
+
+    <string name="tittleDavid">Perfil de David</string>
+    <string name="nameDavid">David Peña</string>
+    <string name="roleDavid">Sensei del codigo</string>
+    <string name="descriptionDavid">Un tipo duro confirmado</string>
+
+    <string name="tittleAle">Perfil de Alejandro</string>
+    <string name="nameAle">Alejandro Martinez</string>
+    <string name="roleAle">Maestro del Diseño</string>
+    <string name="descriptionAle">Un controlador del arte,</string>
+
+    <string name="nationalityRD">de República Domincana </string>
+
+    <string-array name="spinner1">
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+    </string-array>
+    <string-array name="spinner2">
+        <item>Kbps</item>
+        <item>Mbps</item>
+        <item>Gbps</item>
+        <item>Tbps</item>
+        <item>KB/s</item>
+        <item>MB/s</item>
+        <item>GB/s</item>
+        <item>TB/s</item>
+    </string-array>
+
+    <string name="appchangelogs">
+
+        <b>Nota de cambios v1.0 FINALMENTE!</b>\n\n
+
+        - Añadí la nueva y hermosa introduccion :D\n
+        - Añadí el perfil de Alejandro Martinez\n
+        - Añadí la pantalla de Acerca con unas notas de cambios sensuales para todos los nerds, 8/8\n\n
+
+        <b>Mini-nota:</b>\n\n
+
+        Los planes han cambiado. Después de horas y horas tratando de hacer la pantalla de configuracion con las opciones para cambiar los colores de la app he decidido dejarlo para luego porque soy un novatazo. Gracias por su comprencion ;)\n\n
+
+        <b>Nota de cambios v0.7.1 [Hotfix]:</b>\n\n
+
+        - Agregué algunas traducciones faltantes (Nunca actualicen su app a las 2am, nunca)\n
+        - Problema resuelto de los resultados que no aparacian cuando estaba dentro del rango de 1-2 dias.\n
+        - Nuevo diseño de icono #3\n\n
+
+        <b>Bugs conocidos:</b>\n\n
+
+        - Super Ultra Bug llamado: Ninguno. Sabes que algo malo y bien grande debe haber si tu código "simplemente funciona" ಠ_ಠ \n\n
+
+        <b>Próximamente:</b>\n\n
+
+        - Opciones para poner modo Oscuro y modo Claro en las configuraciones.\n
+        - App v1.0 (づ｡◕‿‿◕｡)づ\n\n
+
+        <b>Nota de cambios v0.7.0:</b>\n\n
+
+        - Añadí Kbps, Mbps, Gbps and Tbps\n
+        - Añadí Califica esta App como option del Menu\n
+        - Añadí Contacto al Menu\n
+        - Añadí Perfiles a Contacto\n
+        - Añadí años, meses y semanas a los resultados\n
+        - Cambié el nombre del app a \"Down\" \n
+        - Añadí una pequeña nota debajo del boton de Calcular\n
+        - Moví "Progreso" encima del procentaje en la pantalla principal\n\n
+
+        <b>Bugs conocidos:</b>\n\n
+        - Un bug salvaje que previene que algunos resultados sean mostrados. Lo arreglaré pronto\n
+        - Algunas traducciones a español faltantes\n\n
+
+        <b>Nota de cambios v0.3.1:</b>\n\n
+
+        - Pequeños ajustes al logo de la app\n
+        - Añadí soporte para el idioma español (depende del idioma de tu dispositivo)\n
+        - Añadí Días a los resultados\n\n
+
+        <b>Bugs conocidos:</b>\n\n
+
+        - Segunda lista de items no se muestra adecuadamente\n\n
+
+        <b>Nota de cambios v0.3:</b>\n\n
+
+        - Nuevo logo :)\n
+        - Arreglé el error de que se cerraba el app si no se introducian datos a uno de los dos campos de texto\n
+        - Arreglé que la barra de porcentaje no se mostraba adecuadamente en pantallas/resoluciones pequeñas\n
+        - Arreglé que el tiempo no mostraba los 0 a la izquierda si el resultado era menor que 10\n
+        - Arreglé que el Tamaño de Archivo recibiera enfoque automatico sin intencion, porque aquí abogamos por la igualdad de Views!\n\n
+
+        <b>Bugs conocidos:</b>\n\n
+
+        - Segunda lista de items no se muestra adecuadamente\n\n
+
+        <b>Nota de cambios v0.25:</b>\n\n
+
+        - Añadí soporte para el API 15 (Android 4.0.3+)\n\n
+
+        <b>Bugs conocidos:</b>\n\n
+
+        - El tiempo no se muestra adecuadamente si el resultado era menor que 10\n
+        - Segunda lista de items no se muestra adecuadamente\n\n
+
+        <b>Nota de cambios v0.21: </b>\n\n
+
+        - Much app, very code, so first release, wow!
+    </string>
+
+</resources>
