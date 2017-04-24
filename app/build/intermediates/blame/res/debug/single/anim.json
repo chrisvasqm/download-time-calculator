@@ -1,35 +1,23 @@
 [
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim\\design_fab_in.xml"
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\anim\\popup_enter.xml"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\decelerate_cubic.xml",
@@ -37,118 +25,54 @@
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\c99285de0625f0848f1d6daca561f9b9b527b16e\\output\\res\\anim\\design_snackbar_out.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\c99285de0625f0848f1d6daca561f9b9b527b16e\\output\\res\\anim\\design_fab_in.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\decelerate_cubic.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.8.6.0\\res\\anim\\decelerate_cubic.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim\\design_fab_in.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\c99285de0625f0848f1d6daca561f9b9b527b16e\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim\\design_fab_out.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.8.6.0\\res\\anim\\popup_enter.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\c99285de0625f0848f1d6daca561f9b9b527b16e\\output\\res\\anim\\design_fab_out.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.8.6.0\\res\\anim\\popup_exit.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim\\design_snackbar_in.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\c99285de0625f0848f1d6daca561f9b9b527b16e\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\anim\\design_snackbar_out.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\anim\\popup_exit.xml"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_fade_in.xml"
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_fade_out.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\c99285de0625f0848f1d6daca561f9b9b527b16e\\output\\res\\anim\\design_snackbar_in.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_slide_in_top.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\anim\\abc_popup_enter.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim\\design_fab_out.xml"
     }
 ]

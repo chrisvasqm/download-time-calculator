@@ -1,10 +1,6 @@
 [
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "D:\\Data\\Development\\AndroidLab\\ASProyects\\Speedy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
         "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\faa034e10a424c4b7e5bc5e0d822fdf06bc9bd7c\\output\\res\\drawable-v23\\abc_control_background_material.xml"
+        "source": "C:\\Users\\chris\\.android\\build-cache\\03246efd1e6aca5b68af3a5e96761626b318f427\\output\\res\\drawable-v23\\abc_control_background_material.xml"
     }
 ]
