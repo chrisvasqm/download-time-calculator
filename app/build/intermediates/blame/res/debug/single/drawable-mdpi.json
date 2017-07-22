@@ -1,22 +1,22 @@
 [
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icongplus.png",
-        "source": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\src\\main\\res\\drawable-mdpi\\icongplus.png"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icongplus.png",
+        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable-mdpi\\icongplus.png"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icontwitter.png",
-        "source": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\src\\main\\res\\drawable-mdpi\\icontwitter.png"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\linkinicon.png",
+        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable-mdpi\\linkinicon.png"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\iconfacebook.png",
-        "source": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\src\\main\\res\\drawable-mdpi\\iconfacebook.png"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icontwitter.png",
+        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable-mdpi\\icontwitter.png"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\linkinicon.png",
-        "source": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\src\\main\\res\\drawable-mdpi\\linkinicon.png"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\iconinstagram.png",
+        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable-mdpi\\iconinstagram.png"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\iconinstagram.png",
-        "source": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\src\\main\\res\\drawable-mdpi\\iconinstagram.png"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\iconfacebook.png",
+        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable-mdpi\\iconfacebook.png"
     }
 ]

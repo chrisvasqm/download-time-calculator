@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+        "outputFile": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 92
                 },
                 "from": {
-                    "file": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "file": "C:\\Users\\chris\\.android\\build-cache\\41091484b2810f695b3387506e73865de592a09a\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 150
                 },
                 "from": {
-                    "file": "C:\\Users\\chris\\.android\\build-cache\\2343d3cf1452eb3daa377a00e90da810fd55d396\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "file": "C:\\Users\\chris\\.android\\build-cache\\8c6829e2f179c68d86b2e70f7b6425d5a9be59cf\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 209
                 },
                 "from": {
-                    "file": "C:\\Users\\chris\\.android\\build-cache\\2343d3cf1452eb3daa377a00e90da810fd55d396\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "file": "C:\\Users\\chris\\.android\\build-cache\\8c6829e2f179c68d86b2e70f7b6425d5a9be59cf\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

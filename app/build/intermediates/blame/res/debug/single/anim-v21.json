@@ -1,14 +1,10 @@
 [
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\1446aabd41b7a5c0f687bc4a216929589890284b\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\7e8f7d262ea86c6aaafa11f200336f42eab40411\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\f0e6b491dcb8d9adcea4cb0cc46a07fe368d15c0\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\1446aabd41b7a5c0f687bc4a216929589890284b\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

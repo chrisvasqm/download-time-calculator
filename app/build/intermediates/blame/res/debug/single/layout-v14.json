@@ -1,14 +1,14 @@
 [
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\layout-v14\\md_stub_progress.xml"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\41091484b2810f695b3387506e73865de592a09a\\output\\res\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\layout-v14\\md_stub_progress_indeterminate.xml"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\41091484b2810f695b3387506e73865de592a09a\\output\\res\\layout-v14\\md_stub_progress_indeterminate.xml"
     },
     {
-        "merged": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\5e1a0e190c05c4fa0bc302d5dd8ec6d92e619b3d\\output\\res\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\41091484b2810f695b3387506e73865de592a09a\\output\\res\\layout-v14\\md_stub_progress.xml"
     }
 ]

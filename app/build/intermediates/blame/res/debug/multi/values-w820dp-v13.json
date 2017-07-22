@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "D:\\Data\\Development\\AndroidLab\\projects\\down-android\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
