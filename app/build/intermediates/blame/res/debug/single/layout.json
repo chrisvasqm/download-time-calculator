@@ -12,12 +12,12 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\intro_layout2.xml",

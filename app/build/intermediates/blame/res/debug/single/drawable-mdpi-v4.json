@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
@@ -84,16 +84,16 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\design_ic_visibility.png",

@@ -68,12 +68,12 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_skip_white_24px.png",
         "source": "C:\\Users\\chris\\.android\\build-cache\\8c6829e2f179c68d86b2e70f7b6425d5a9be59cf\\output\\res\\drawable-xxhdpi-v4\\ic_skip_white_24px.png"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
