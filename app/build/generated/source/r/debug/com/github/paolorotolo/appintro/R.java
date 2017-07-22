@@ -460,9 +460,9 @@ public final class R {
         public static final int ic_done_white_24px = 0x7f02005d;
         public static final int ic_navigate_next_white_24dp = 0x7f02005e;
         public static final int ic_skip_white_24px = 0x7f02005f;
-        public static final int indicator_dot_grey = 0x7f020065;
-        public static final int indicator_dot_white = 0x7f020066;
-        public static final int notification_template_icon_bg = 0x7f020080;
+        public static final int indicator_dot_grey = 0x7f020061;
+        public static final int indicator_dot_white = 0x7f020062;
+        public static final int notification_template_icon_bg = 0x7f02007b;
     }
     public static final class id {
         public static final int action0 = 0x7f0e00b2;
