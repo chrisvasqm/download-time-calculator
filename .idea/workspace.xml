@@ -9,10 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e05bffe-23ad-4a96-8080-b93d08503c07" name="Default" comment="Remove unused dependencies">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="1e05bffe-23ad-4a96-8080-b93d08503c07" name="Default" comment="Add new Google maven repository">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java" />
     </list>
     <ignored path="android-down.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,22 +69,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <marker date="1500701280992" expanded="false" signature="5094:5130" ph="&quot;Download should be done in: &#10;&#10;&quot;" />
+                <marker date="1500701280992" expanded="false" signature="5198:5216" ph="&quot;Close&quot;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1949,9 +1941,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2478,7 +2470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500700973389</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add new Google maven repository">
+      <created>1500701147812</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1500701147812</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2556,7 +2555,8 @@
     <MESSAGE value="Add Kotlin Android Extensions" />
     <MESSAGE value="Add Kotlin/Anko dependencies" />
     <MESSAGE value="Remove unused dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused dependencies" />
+    <MESSAGE value="Add new Google maven repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new Google maven repository" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2570,7 +2570,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1500701280992" expanded="false" signature="5094:5130" ph="&quot;Download should be done in: &#10;&#10;&quot;" />
+            <marker date="1500701280992" expanded="false" signature="5198:5216" ph="&quot;Close&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2604,14 +2607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -2625,9 +2620,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        <state relative-caret-position="108">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <marker date="1500701280992" expanded="false" signature="5094:5130" ph="&quot;Download should be done in: &#10;&#10;&quot;" />
+            <marker date="1500701280992" expanded="false" signature="5198:5216" ph="&quot;Close&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,8 +11,6 @@ import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.afollestad.materialdialogs.MaterialDialog;
-
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener {
@@ -127,10 +125,10 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
                     seconds = fileSize / averageSpeed;
                 }
 
-                new MaterialDialog.Builder(MainActivity.this)
-                        .content(getString(R.string.sDownloadMessage) + convertSeconds(seconds))
-                        .positiveText(R.string.sBtnAlert)
-                        .show();
+//                new MaterialDialog.Builder(MainActivity.this)
+//                        .content(getString(R.string.sDownloadMessage) + convertSeconds(seconds))
+//                        .positiveText(R.string.sBtnAlert)
+//                        .show();
             }
         });
     }
