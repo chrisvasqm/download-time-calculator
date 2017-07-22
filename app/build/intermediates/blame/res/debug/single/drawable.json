@@ -4,10 +4,6 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profpicforcontact3.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\profpicforcontact3.png"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\drawable\\design_fab_background.xml"
     },
@@ -34,14 +30,6 @@
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profpicforcontact2.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\profpicforcontact2.png"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slidesdown4.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\slidesdown4.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
@@ -88,10 +76,6 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profpicforcontact.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\profpicforcontact.png"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
@@ -106,14 +90,6 @@
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slidesdown5.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\slidesdown5.png"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slidesdown.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\slidesdown.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -134,14 +110,6 @@
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\41091484b2810f695b3387506e73865de592a09a\\output\\res\\drawable\\md_item_selected.xml"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\downiconv3.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\downiconv3.png"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slidesdown2.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\slidesdown2.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
@@ -238,10 +206,6 @@
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slidesdown3.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\drawable\\slidesdown3.png"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
