@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_86a28381a77c349d4d311ae84aa700eb93343dcd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\chris\.android\build-cache\41091484b2810f695b3387506e73865de592a09a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -21,15 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_86a28381a77c349d4d311ae84aa700eb93343dcd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\chris\.android\build-cache\ccb88f994d41c926d08abbb2b31618e410a9b101\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="3a606ee69a485e807633796d7daebfe5807f22eb">
+        sha1="7f7bfea1db9581b8ae291876bb275082555bbcd9">
         <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2198b4da257a6869b3863d122b7833ee959a69a4\classes.dex" />
     </item>
     <item
