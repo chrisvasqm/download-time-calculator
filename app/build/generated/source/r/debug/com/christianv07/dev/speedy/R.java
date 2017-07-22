@@ -28,8 +28,8 @@ public final class R {
         public static final int design_appbar_state_list_animator=0x7f060000;
     }
     public static final class array {
-        public static final int spinner1=0x7f080000;
-        public static final int spinner2=0x7f080001;
+        public static final int file_sizes =0x7f080000;
+        public static final int estimated_speeds =0x7f080001;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -3371,7 +3371,7 @@ containing a value of this type.
         public static final int parent=0x7f0e0010;
         public static final int parentPanel=0x7f0e0055;
         public static final int pin=0x7f0e003a;
-        public static final int progressBar=0x7f0e007f;
+        public static final int seekBar =0x7f0e007f;
         public static final int progress_circular=0x7f0e0006;
         public static final int progress_horizontal=0x7f0e0007;
         public static final int radio=0x7f0e0065;

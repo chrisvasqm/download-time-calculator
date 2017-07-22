@@ -17,13 +17,13 @@
     <string name="sDownloadMessage">Download should be done in: \n\n</string>
     <string name="fyi">Results may vary depending on the internet connection stability of your device.</string>
 
-    <string-array name="spinner1">
+    <string-array name="file_sizes">
         <item>KB</item>
         <item>MB</item>
         <item>GB</item>
         <item>TB</item>
     </string-array>
-    <string-array name="spinner2">
+    <string-array name="estimated_speeds">
         <item>Kbps</item>
         <item>Mbps</item>
         <item>Gbps</item>

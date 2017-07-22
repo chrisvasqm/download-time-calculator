@@ -2,8 +2,9 @@ package com.christianv07.dev.speedy
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.widget.ArrayAdapter
-import android.widget.Spinner
+import android.widget.SeekBar
+import com.christianv07.dev.speedy.extension.fill
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,21 +12,18 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        spinnerFileSize.fill(R.array.file_sizes)
+        spinnerEstimatedSpeed.fill(R.array.estimated_speeds)
+
+        seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            override fun onStartTrackingTouch(p0: SeekBar?) {}
+            override fun onStopTrackingTouch(p0: SeekBar?) {}
+            override fun onProgressChanged(seekBar: SeekBar?, progress: Int, p2: Boolean) {
+                text_view_percent.text = "$progress%"
+            }
+        })
 
     }
-
-    fun LoadSpin(spin: Spinner, spin2: Spinner) {
-        val adapter = ArrayAdapter.createFromResource(this,
-                R.array.spinner1, android.R.layout.simple_spinner_item)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spin.adapter = adapter
-
-        val adapter2 = ArrayAdapter.createFromResource(this,
-                R.array.spinner2, android.R.layout.simple_spinner_item)
-        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spin2.adapter = adapter2
-    }
-
 }
 
 
