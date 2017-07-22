@@ -12,30 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\chris\.android\build-cache\41091484b2810f695b3387506e73865de592a09a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d3cec13eea6c9b017d968a80a277ab9196df58f6">
-        <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c0792fe353759c84e17d67182b5382d02320378\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\chris\.android\build-cache\fdb8841113138e6994f736abcfad255ef82df1ec\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
         <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8efd701db370998dbdbeffdc4ab5498a5e7918b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\chris\.android\build-cache\ccb88f994d41c926d08abbb2b31618e410a9b101\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
-        <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b690eddf3d45b0e24f6d9535273dceb2eface07\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,21 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\chris\.android\build-cache\8c6829e2f179c68d86b2e70f7b6425d5a9be59cf\output\jars\classes.jar"
+        jar="C:\Users\chris\.gradle\caches\modules-2\files-2.1\org.jetbrains.anko\anko-commons\0.10.1\bcf698b95e7e1d480a65d049af705286f2776a81\anko-commons-0.10.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="95b97c30c8331619a9cc560ba9c3adb806e00ead">
-        <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbc5db17524e1aaf4dcc0127098d38ea052e88e6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\chris\.android\build-cache\57dd90051fe1d75f37f335bec789546458996031\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ab3193b438e37f7b0a634cc2dfebbf92892ea90c">
-        <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d13faf34374992478f4f18dceefcba126eaf05ba\classes.dex" />
+        sha1="bcf698b95e7e1d480a65d049af705286f2776a81">
+        <dex dex="D:\Development\AndroidLab\projects\android-down\app\build\intermediates\transforms\dex\debug\folders\1000\10\anko-commons-0.10.1_da99c393a0f55494a0276fac25d0e8a1a3787b97\classes.dex" />
     </item>
 
 </items>

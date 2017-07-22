@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         spinnerEstimatedSpeed.fill(R.array.estimated_speeds)
 
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
-            override fun onStartTrackingTouch(p0: SeekBar?) {}
-            override fun onStopTrackingTouch(p0: SeekBar?) {}
+            override fun onStartTrackingTouch(seekBar: SeekBar?) {}
+            override fun onStopTrackingTouch(seekBar: SeekBar?) {}
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, p2: Boolean) {
                 text_view_percent.text = "$progress%"
             }
