@@ -30,8 +30,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
-            app:cardElevation="2dp"
             app:cardBackgroundColor="@color/colorAccent"
+            app:cardElevation="2dp"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -94,14 +94,14 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/spinner_filesize"
+            app:layout_constraintTop_toBottomOf="@+id/cardView_main"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintRight_creator="1"
-            tools:layout_constraintTop_creator="1"
-            app:layout_constraintHorizontal_bias="1.0"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/cardView_main">
+            tools:layout_constraintTop_creator="1">
 
             <android.support.design.widget.TextInputEditText
                 android:id="@+id/edittext_filesize"
@@ -118,8 +118,10 @@
             android:id="@+id/seekbar_main_downloaded"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:indeterminate="false"
             android:max="100"
@@ -130,44 +132,42 @@
             tools:layout_conversion_absoluteHeight="18dp"
             tools:layout_conversion_absoluteWidth="257dp"
             tools:layout_conversion_absoluteX="8dp"
-            tools:layout_conversion_absoluteY="158dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp" />
+            tools:layout_conversion_absoluteY="158dp" />
 
 
         <TextView
             android:id="@+id/textview_progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="@string/sProgress"
             android:textColor="@color/textColorSecondary"
             android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/floatingtext_estimatedspeed"
             tools:layout_conversion_absoluteHeight="18dp"
             tools:layout_conversion_absoluteWidth="48dp"
             tools:layout_conversion_absoluteX="296dp"
-            tools:layout_conversion_absoluteY="142dp"
-            android:layout_marginLeft="8dp"
-            app:layout_constraintLeft_toLeftOf="parent" />
+            tools:layout_conversion_absoluteY="142dp" />
 
         <TextView
             android:id="@+id/textview_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:text="@string/sBarPercentage"
             android:textAlignment="center"
             android:textColor="@color/textColorSecondary"
             android:textSize="18sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/textview_progress"
+            app:layout_constraintRight_toRightOf="parent"
             tools:layout_conversion_absoluteHeight="32dp"
             tools:layout_conversion_absoluteWidth="23dp"
             tools:layout_conversion_absoluteX="309dp"
-            tools:layout_conversion_absoluteY="160dp"
-            android:layout_marginRight="8dp"
-            app:layout_constraintRight_toRightOf="parent" />
+            tools:layout_conversion_absoluteY="160dp" />
 
 
         <android.support.design.widget.TextInputLayout
