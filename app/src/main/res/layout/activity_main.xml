@@ -18,14 +18,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/spinnerFileSize"
+        app:layout_constraintRight_toLeftOf="@+id/spinner_filesize"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1">
 
-        <EditText
-            android:id="@+id/txtFile"
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edittext_filesize"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -36,7 +36,7 @@
 
 
     <android.support.v7.widget.AppCompatSeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/seekbar_main_downloaded"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -47,7 +47,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_progress"
+        app:layout_constraintTop_toBottomOf="@+id/textview_progress"
         tools:layout_conversion_absoluteHeight="18dp"
         tools:layout_conversion_absoluteWidth="257dp"
         tools:layout_conversion_absoluteX="8dp"
@@ -55,7 +55,7 @@
 
 
     <TextView
-        android:id="@+id/text_view_progress"
+        android:id="@+id/textview_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="0dp"
@@ -64,7 +64,7 @@
         android:text="@string/sProgress"
         android:textColor="@color/textColorSecondary"
         android:textSize="16sp"
-        app:layout_constraintLeft_toLeftOf="@+id/seekBar"
+        app:layout_constraintLeft_toLeftOf="@+id/seekbar_main_downloaded"
         app:layout_constraintTop_toBottomOf="@+id/floatingtext3"
         tools:layout_conversion_absoluteHeight="18dp"
         tools:layout_conversion_absoluteWidth="48dp"
@@ -72,7 +72,7 @@
         tools:layout_conversion_absoluteY="142dp" />
 
     <TextView
-        android:id="@+id/text_view_percent"
+        android:id="@+id/textview_percent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -81,8 +81,8 @@
         android:textAlignment="center"
         android:textColor="@color/textColorSecondary"
         android:textSize="18sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/text_view_progress"
-        app:layout_constraintRight_toRightOf="@+id/seekBar"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textview_progress"
+        app:layout_constraintRight_toRightOf="@+id/seekbar_main_downloaded"
         tools:layout_conversion_absoluteHeight="32dp"
         tools:layout_conversion_absoluteWidth="23dp"
         tools:layout_conversion_absoluteX="309dp"
@@ -99,15 +99,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/spinnerEstimatedSpeed"
+        app:layout_constraintRight_toLeftOf="@+id/spinner_estimatedspeed"
         app:layout_constraintTop_toBottomOf="@+id/floatingtext"
         tools:layout_conversion_absoluteHeight="54dp"
         tools:layout_conversion_absoluteWidth="257dp"
         tools:layout_conversion_absoluteX="8dp"
         tools:layout_conversion_absoluteY="72dp">
 
-        <EditText
-            android:id="@+id/txtSpeed"
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edittext_estimatedSpeed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -116,7 +116,7 @@
     </android.support.design.widget.TextInputLayout>
 
     <Spinner
-        android:id="@+id/spinnerFileSize"
+        android:id="@+id/spinner_filesize"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -129,7 +129,7 @@
         tools:ignore="RtlHardcoded" />
 
     <Spinner
-        android:id="@+id/spinnerEstimatedSpeed"
+        android:id="@+id/spinner_estimatedspeed"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"

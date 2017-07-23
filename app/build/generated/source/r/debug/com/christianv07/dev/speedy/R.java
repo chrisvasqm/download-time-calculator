@@ -3393,7 +3393,7 @@ containing a value of this type.
         public static final int search_plate=0x7f0e0074;
         public static final int search_src_text=0x7f0e0075;
         public static final int search_voice_btn=0x7f0e0079;
-        public static final int seekBar=0x7f0e007f;
+        public static final int seekbar_main_downloaded =0x7f0e007f;
         public static final int select_dialog_listview=0x7f0e007a;
         public static final int shortcut=0x7f0e0064;
         public static final int showCustom=0x7f0e001e;
@@ -3406,8 +3406,8 @@ containing a value of this type.
         public static final int spacer=0x7f0e0054;
         public static final int spinner=0x7f0e0088;
         public static final int spinner2=0x7f0e0089;
-        public static final int spinnerEstimatedSpeed=0x7f0e0083;
-        public static final int spinnerFileSize=0x7f0e007d;
+        public static final int spinner_estimatedspeed =0x7f0e0083;
+        public static final int spinner_filesize =0x7f0e007d;
         public static final int split_action_bar=0x7f0e0008;
         public static final int spread=0x7f0e0011;
         public static final int spread_inside=0x7f0e0014;
@@ -3424,8 +3424,8 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0e005a;
         public static final int textSpacerNoTitle=0x7f0e0059;
         public static final int text_input_password_toggle=0x7f0e0095;
-        public static final int text_view_percent=0x7f0e0082;
-        public static final int text_view_progress=0x7f0e0080;
+        public static final int textview_percent =0x7f0e0082;
+        public static final int textview_progress =0x7f0e0080;
         public static final int textinput_counter=0x7f0e0009;
         public static final int textinput_error=0x7f0e000a;
         public static final int time=0x7f0e00a1;
