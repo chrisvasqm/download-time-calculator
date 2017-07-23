@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setSupportActionBar(toolbar)
         spinner_filesize.fill(R.array.file_sizes)
         spinner_estimatedspeed.fill(R.array.estimated_speeds)
 
