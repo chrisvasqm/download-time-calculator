@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <string-array name="spinner1">
-        <item>KB</item>
-        <item>MB</item>
-        <item>GB</item>
-        <item>TB</item>
-    </string-array>
-    <string-array name="spinner2">
+    <string-array name="estimated_speeds">
         <item>Kbps</item>
         <item>Mbps</item>
         <item>Gbps</item>
@@ -15,6 +9,12 @@
         <item>MB/s</item>
         <item>GB/s</item>
         <item>TB/s</item>
+    </string-array>
+    <string-array name="file_sizes">
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
     </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>

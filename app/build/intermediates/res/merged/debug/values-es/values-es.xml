@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="spinner1">
-        <item>KB</item>
-        <item>MB</item>
-        <item>GB</item>
-        <item>TB</item>
-    </string-array>
-    <string-array name="spinner2">
+    <string-array name="estimated_speeds">
         <item>Kbps</item>
         <item>Mbps</item>
         <item>Gbps</item>
@@ -15,6 +9,12 @@
         <item>MB/s</item>
         <item>GB/s</item>
         <item>TB/s</item>
+    </string-array>
+    <string-array name="file_sizes">
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
     </string-array>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
