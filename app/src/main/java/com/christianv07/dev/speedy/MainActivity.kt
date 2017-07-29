@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity() {
 
         val downloadTimeCalculator = DownloadTimeCalculator(fileSize, estimatedSpeed, downloadProgress)
 
+        //TODO: add formatted to display hours with commas every 3 digits
         textView_cardView_hours.text = downloadTimeCalculator.getHours().toString()
         textView_cardView_minutes.text = downloadTimeCalculator.getMinutes().toString()
         textView_cardView_seconds.text = downloadTimeCalculator.getSeconds().toString()
