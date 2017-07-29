@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="file_sizes">
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+    </string-array>
+    <string-array name="estimated_speeds">
+        <item>KB/s</item>
+        <item>MB/s</item>
+        <item>GB/s</item>
+        <item>TB/s</item>
+    </string-array>
+</resources>
