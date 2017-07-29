@@ -8,12 +8,12 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -40,20 +40,20 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",

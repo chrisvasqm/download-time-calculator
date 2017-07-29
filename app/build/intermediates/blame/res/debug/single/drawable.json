@@ -16,12 +16,12 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",

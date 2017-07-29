@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--Splash Theme-->
+    <!--Launch Theme-->
     <style name="AppTheme.BrandedLaunch" parent="AppTheme">
         <item name="android:windowBackground">@drawable/brandedscreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
     </style>
 
     <!-- Base application theme. -->

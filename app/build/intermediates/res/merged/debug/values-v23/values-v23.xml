@@ -7,6 +7,12 @@
         <item name="android:windowBackground">@color/colorPrimaryDark</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
+    <style name="AppTheme.BrandedLaunch" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/brandedscreen</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="android:TextAppearance.Material.Widget.ActionBar.Menu"/>
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="android:TextAppearance.Material.Widget.Button.Inverse"/>
     <style name="Base.Theme.AppCompat" parent="Base.V23.Theme.AppCompat"/>
