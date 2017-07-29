@@ -2,22 +2,34 @@ package com.christianv07.dev.speedy
 
 import com.christianv07.dev.speedy.extension.isZeroOrNegative
 
-class DownloadTimeCalculator {
+class DownloadTimeCalculator(val fileSize: Double, val estimatedSpeed: Double, val downloadProgress: Double = 0.0) {
 
-    fun calculateHours(fileSize: Double, downloadSpeed: Double): Double {
-        val MINUTES_IN_HOUR = 60
-        return calculateMinutes(fileSize, downloadSpeed) / MINUTES_IN_HOUR
-    }
-
-    fun calculateMinutes(fileSize: Double, downloadSpeed: Double): Double {
-        val SECONDS_IN_MINUTES = 60
-        return calculateSeconds(fileSize, downloadSpeed) / SECONDS_IN_MINUTES
-    }
-
-    fun calculateSeconds(fileSize: Double, downloadSpeed: Double): Double {
+    fun getHours(): Int {
         return when {
-            downloadSpeed.isZeroOrNegative() -> 0.0
-            else -> fileSize / downloadSpeed
+            estimatedSpeed.isZeroOrNegative() -> 0
+            downloadProgress > 0 -> ((getRemainingFileSize() / estimatedSpeed) / 3600).toInt()
+            else -> ((fileSize / estimatedSpeed) / 3600).toInt()
         }
+    }
+
+    fun getMinutes(): Int {
+        return when {
+            estimatedSpeed.isZeroOrNegative() -> 0
+            downloadProgress > 0 -> (((getRemainingFileSize() / estimatedSpeed) / 60) % 60).toInt()
+            else -> (((fileSize / estimatedSpeed) / 60) % 60).toInt()
+        }
+    }
+
+    fun getSeconds(): Int {
+        return when {
+            estimatedSpeed.isZeroOrNegative() -> 0
+            downloadProgress > 0 -> ((getRemainingFileSize() / estimatedSpeed) % 60).toInt()
+            else -> ((fileSize / estimatedSpeed) % 60).toInt()
+        }
+    }
+
+    private fun getRemainingFileSize(): Double {
+        val percentageOfFile = fileSize * (downloadProgress / 100)
+        return fileSize - percentageOfFile
     }
 }
