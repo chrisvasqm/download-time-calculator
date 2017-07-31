@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/home/chris/AndroidStudioProjects/android-down/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/chris/AndroidStudioProjects/android-down/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/chris/AndroidStudioProjects/android-down/D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "/home/chris/AndroidStudioProjects/android-down/D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]
