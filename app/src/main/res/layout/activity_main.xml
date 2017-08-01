@@ -34,6 +34,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardElevation="2dp"
             app:layout_constraintHorizontal_bias="0.0"
