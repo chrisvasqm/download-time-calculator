@@ -42,8 +42,24 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/contraintlayout_main_cardview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imgBtnShare"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.538"
+                    app:srcCompat="?attr/actionModeShareDrawable" />
 
                 <TextView
                     android:id="@+id/textView_cardView_seconds"
@@ -85,7 +101,7 @@
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="4dp"
                     android:text="00"
                     android:textColor="@android:color/white"
                     android:textSize="30sp"

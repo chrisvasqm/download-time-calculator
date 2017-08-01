@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/chris/AndroidStudioProjects/android-down/app/build/intermediates/res/merged/debug/menu/menu.xml",
-        "source": "/home/chris/AndroidStudioProjects/android-down/app/src/main/res/menu/menu.xml"
-    },
-    {
         "merged": "/home/chris/AndroidStudioProjects/android-down/D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
         "source": "/home/chris/AndroidStudioProjects/android-down/D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\menu\\menu.xml"
     }

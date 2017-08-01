@@ -1,5 +1,6 @@
 package com.christianv07.dev.speedy
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.Editable
@@ -41,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+
         spinner_filesize.fill(R.array.file_sizes)
         spinner_estimatedspeed.fill(R.array.estimated_speeds)
         spinner_filesize.onItemSelectedListener = spinnerOnItemSelectedListener
@@ -50,6 +52,8 @@ class MainActivity : AppCompatActivity() {
         edittext_estimatedSpeed.addTextChangedListener(textWatcher)
 
         seekbar_main_downloaded.setOnSeekBarChangeListener(onSeekBarChangeListener)
+
+        imgBtnShare.setOnClickListener { shareDownloadDetails() }
     }
 
     private fun updateDownloadTime() {
@@ -77,6 +81,21 @@ class MainActivity : AppCompatActivity() {
         textView_cardView_hours.text = downloadTimeCalculator.getHours().toString()
         textView_cardView_minutes.text = downloadTimeCalculator.getMinutes().toString()
         textView_cardView_seconds.text = downloadTimeCalculator.getSeconds().toString()
+    }
+
+    private fun shareDownloadDetails() {
+        val fileSize = "${edittext_filesize.text}${spinner_filesize.selectedItem}"
+        val time = "${textView_cardView_hours.text}:${textView_cardView_minutes.text}:${textView_cardView_seconds.text}"
+        val estimatedSpeed = "${edittext_estimatedSpeed.text}${spinner_estimatedspeed.selectedItem}"
+        val progress = seekbar_main_downloaded.progress.toString()
+        val downloadDetails = "A file of $fileSize would take $time to download/transfer at a speed of $estimatedSpeed with $progress% already downloaded."
+
+        val sendDetailsIntent = Intent()
+        sendDetailsIntent.action = Intent.ACTION_SEND
+        sendDetailsIntent.putExtra(Intent.EXTRA_TEXT, downloadDetails)
+        sendDetailsIntent.type = "text/plain"
+
+        startActivity(sendDetailsIntent)
     }
 }
 
