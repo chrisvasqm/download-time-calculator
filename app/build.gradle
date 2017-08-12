@@ -10,8 +10,8 @@ android {
         applicationId "com.christianv07.dev.speedy"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 8
-        versionName "1.0"
+        versionCode 9
+        versionName "2.0.0"
     }
     buildTypes {
         release {
