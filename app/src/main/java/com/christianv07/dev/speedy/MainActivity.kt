@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-
         spinner_filesize.fill(R.array.file_sizes)
         spinner_estimatedspeed.fill(R.array.estimated_speeds)
         spinner_filesize.onItemSelectedListener = spinnerOnItemSelectedListener

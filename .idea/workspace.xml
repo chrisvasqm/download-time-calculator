@@ -9,21 +9,20 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e05bffe-23ad-4a96-8080-b93d08503c07" name="Default" comment="Improve supportLibrary dependencies values with extensions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTest.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ExampleUnitTest.java" afterPath="" />
+    <list default="true" id="1e05bffe-23ad-4a96-8080-b93d08503c07" name="Default" comment="Add unit test for the ByteConverter class">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DoubleExtensionTests.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DownloadTimeCalculatorTests.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/TextInputEditTextExtensionTests.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTest.kt" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTests.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/christianv07/dev/speedy/test/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/christianv07/dev/speedy/test/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/christianv07/dev/speedy/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/christianv07/dev/speedy/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/DownloadTimeCalculator.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/DownloadTimeCalculator.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt" />
     </list>
     <ignored path="android-down.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,54 +80,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt">
+      <file leaf-file-name="DownloadTimeCalculatorTests.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DownloadTimeCalculatorTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByteConverter.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/ByteConverter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByteConverterTest.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="440">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#37#101#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadTimeCalculator.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/DownloadTimeCalculator.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -139,8 +98,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="Kotlin File" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -1974,22 +1933,26 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/SpinnerExtension.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/DownloadTimer.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/ByteConverter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/DoubleExtension.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/DownloadTimeCalculator.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v23/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
         <option value="$USER_HOME$/android-sdk/platforms/android-26/android.jar!/android/view/View.class" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/EditTextExtension.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/TextInputEditText.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/ByteConverter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DownloadTimeCalculatorTests.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DoubleExtensionTests.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/DownloadTimeCalculator.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/TextInputEditTextExensionTests.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/TextInputEditTextExtensionTests.kt" />
       </list>
     </option>
   </component>
@@ -2024,6 +1987,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2031,10 +2016,6 @@
               <option name="myItemId" value="android-down" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2044,42 +2025,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-down" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-down" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2109,31 +2054,17 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2154,33 +2085,7 @@
       <recent name="D:\Development\AndroidLab\projects\android-down\app\src\main\java\com\christianv07\dev\speedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.ByteConverterTest">
-    <configuration default="false" name="com.christianv07.dev.speedy.DownloadTimerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.christianv07.dev.speedy.DownloadTimerKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="app" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="com.christianv07.dev.speedy.DownloadTimeCalculatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.christianv07.dev.speedy.DownloadTimeCalculatorKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="app" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Android JUnit.TextInputEditTextExtensionTests">
     <configuration default="false" name="ByteConverterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2193,6 +2098,110 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.christianv07.dev.speedy" />
       <option name="MAIN_CLASS_NAME" value="com.christianv07.dev.speedy.ByteConverterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DownloadTimeCalculatorTests" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.christianv07.dev.speedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.christianv07.dev.speedy" />
+      <option name="MAIN_CLASS_NAME" value="com.christianv07.dev.speedy.DownloadTimeCalculatorTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DoubleExtensionTests" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.christianv07.dev.speedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.christianv07.dev.speedy" />
+      <option name="MAIN_CLASS_NAME" value="com.christianv07.dev.speedy.DoubleExtensionTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TextInputEditTextExensionTests" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.christianv07.dev.speedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.christianv07.dev.speedy" />
+      <option name="MAIN_CLASS_NAME" value="com.christianv07.dev.speedy.TextInputEditTextExensionTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TextInputEditTextExtensionTests" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.christianv07.dev.speedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.christianv07.dev.speedy" />
+      <option name="MAIN_CLASS_NAME" value="com.christianv07.dev.speedy.TextInputEditTextExtensionTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -2518,17 +2527,21 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.com.christianv07.dev.speedy.DownloadTimerKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.com.christianv07.dev.speedy.DownloadTimeCalculatorKt" />
-      <item index="3" class="java.lang.String" itemvalue="Android JUnit.ByteConverterTest" />
+      <item index="1" class="java.lang.String" itemvalue="Android JUnit.ByteConverterTest" />
+      <item index="2" class="java.lang.String" itemvalue="Android JUnit.DownloadTimeCalculatorTests" />
+      <item index="3" class="java.lang.String" itemvalue="Android JUnit.DoubleExtensionTests" />
+      <item index="4" class="java.lang.String" itemvalue="Android JUnit.TextInputEditTextExensionTests" />
+      <item index="5" class="java.lang.String" itemvalue="Android JUnit.TextInputEditTextExtensionTests" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Android JUnit.ByteConverterTest" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.com.christianv07.dev.speedy.DownloadTimeCalculatorKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.com.christianv07.dev.speedy.DownloadTimerKt" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Android JUnit.TextInputEditTextExtensionTests" />
+        <item index="1" class="java.lang.String" itemvalue="Android JUnit.TextInputEditTextExensionTests" />
+        <item index="2" class="java.lang.String" itemvalue="Android JUnit.DoubleExtensionTests" />
+        <item index="3" class="java.lang.String" itemvalue="Android JUnit.DownloadTimeCalculatorTests" />
+        <item index="4" class="java.lang.String" itemvalue="Android JUnit.ByteConverterTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -2725,36 +2738,46 @@
       <option name="project" value="LOCAL" />
       <updated>1501624909299</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add unit test for the ByteConverter class">
+      <created>1502547838273</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1502547838273</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ByteConverterTest - 2017.08.02 at 20h 00m 25s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="DoubleExtensionTests - 2017.08.20 at 10h 41m 05s.xml">
+      <configuration name="DoubleExtensionTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.02 at 20h 02m 03s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="DoubleExtensionTests - 2017.08.20 at 10h 44m 08s.xml">
+      <configuration name="DoubleExtensionTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.02 at 20h 02m 15s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="DoubleExtensionTests - 2017.08.20 at 10h 45m 23s.xml">
+      <configuration name="DoubleExtensionTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.08 at 18h 09m 13s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="DownloadTimeCalculatorTests - 2017.08.20 at 10h 16m 25s.xml">
+      <configuration name="DownloadTimeCalculatorTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.08 at 18h 19m 58s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="DownloadTimeCalculatorTests - 2017.08.20 at 10h 23m 43s.xml">
+      <configuration name="DownloadTimeCalculatorTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.08 at 18h 20m 24s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="DownloadTimeCalculatorTests - 2017.08.20 at 10h 30m 48s.xml">
+      <configuration name="DownloadTimeCalculatorTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.08 at 18h 21m 54s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="DownloadTimeCalculatorTests - 2017.08.20 at 10h 31m 10s.xml">
+      <configuration name="DownloadTimeCalculatorTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.08 at 18h 31m 52s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="TextInputEditTextExensionTests - 2017.08.20 at 10h 53m 25s.xml">
+      <configuration name="TextInputEditTextExensionTests" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ByteConverterTest - 2017.08.12 at 10h 23m 15s.xml">
-      <configuration name="ByteConverterTest" configurationId="AndroidJUnit" />
+    <history-entry file="TextInputEditTextExtensionTests - 2017.08.20 at 10h 53m 47s.xml">
+      <configuration name="TextInputEditTextExtensionTests" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TextInputEditTextExtensionTests - 2017.08.20 at 10h 53m 51s.xml">
+      <configuration name="TextInputEditTextExtensionTests" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -2777,13 +2800,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5063571" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.816129" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.532294" sideWeight="0.49124727" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17523494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17523494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2854,14 +2877,15 @@
     <MESSAGE value="Close #3 - Add share option with intents to other apps" />
     <MESSAGE value="Add ripple effect to the CardView in activity_main layout" />
     <MESSAGE value="Improve supportLibrary dependencies values with extensions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve supportLibrary dependencies values with extensions" />
+    <MESSAGE value="Add unit test for the ByteConverter class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit test for the ByteConverter class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
@@ -2878,37 +2902,17 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/ByteConverter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="43" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTest.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTests.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2932,7 +2936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2940,17 +2943,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="43" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTest.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTests.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2987,14 +2986,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1144">
           <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt">
@@ -3006,14 +3005,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt">
@@ -3084,34 +3083,20 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/iconfacebook.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/test.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/SpinnerExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/DoubleExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -3152,68 +3137,110 @@
     </entry>
     <entry file="jar://$USER_HOME$/android-sdk/platforms/android-26/android.jar!/android/view/View.class" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/TextInputEditTextExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
           <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/ByteConverter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-26/android.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DoubleExtensionTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/DoubleExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/SpinnerExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/DownloadTimeCalculator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="748">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="289">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/ByteConverterTest.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/TextInputEditTextExtensionTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="154">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/christianv07/dev/speedy/extension/TextInputEditTextExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DownloadTimeCalculatorTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="e#37#101#0" expanded="true" />
           </folding>

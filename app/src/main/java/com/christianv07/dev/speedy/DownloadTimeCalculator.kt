@@ -2,7 +2,7 @@ package com.christianv07.dev.speedy
 
 import com.christianv07.dev.speedy.extension.isZeroOrNegative
 
-class DownloadTimeCalculator(val fileSize: Double, val estimatedSpeed: Double, val downloadProgress: Double = 0.0) {
+class DownloadTimeCalculator(private val fileSize: Double, private val estimatedSpeed: Double, private val downloadProgress: Double = 0.0) {
 
     fun getHours(): Int {
         return when {
@@ -32,4 +32,5 @@ class DownloadTimeCalculator(val fileSize: Double, val estimatedSpeed: Double, v
         val percentageOfFile = fileSize * (downloadProgress / 100)
         return fileSize - percentageOfFile
     }
+
 }
