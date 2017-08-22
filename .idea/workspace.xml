@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e05bffe-23ad-4a96-8080-b93d08503c07" name="Default" comment="Add unit test for the ByteConverter class">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DoubleExtensionTests.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/DownloadTimeCalculatorTests.kt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/christianv07/dev/speedy/TextInputEditTextExtensionTests.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
@@ -2754,7 +2753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503375059806</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add unit tests for DownloadTimeCalculator">
+      <created>1503375091941</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1503375091941</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2864,7 +2870,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add unversioned files and updating modified" />
     <MESSAGE value="Add support for API level 26 (Android O)" />
     <MESSAGE value="Add missing files" />
     <MESSAGE value="Remove no longer used assets" />
@@ -2889,7 +2894,8 @@
     <MESSAGE value="Add unit test for the ByteConverter class" />
     <MESSAGE value="Restricting access to fields" />
     <MESSAGE value="Add ByteConverter's tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ByteConverter's tests" />
+    <MESSAGE value="Add unit tests for DownloadTimeCalculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests for DownloadTimeCalculator" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
