@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/home/chris/AndroidStudioProjects/android-down/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/chris/AndroidStudioProjects/android-down/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "D:\\home\\chris\\AndroidStudioProjects\\android-down\\D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\home\\chris\\AndroidStudioProjects\\android-down\\D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/chris/AndroidStudioProjects/android-down/D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "/home/chris/AndroidStudioProjects/android-down/D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\home\\chris\\AndroidStudioProjects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\home\\chris\\AndroidStudioProjects\\android-down\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]
