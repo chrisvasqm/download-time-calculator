@@ -3,8 +3,8 @@
 
     <style name="AppTheme.BrandedLaunch" parent="AppTheme">
         <item name="android:windowBackground">@drawable/brandedscreen</item>
-        <item name="android:navigationBarColor">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarker</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarker</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
