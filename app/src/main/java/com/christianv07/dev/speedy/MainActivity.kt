@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
         sendDetailsIntent.putExtra(Intent.EXTRA_TEXT, downloadDetails)
         sendDetailsIntent.type = "text/plain"
 
-        startActivity(sendDetailsIntent)
+        startActivity(Intent.createChooser(sendDetailsIntent, getString(R.string.share)))
     }
 }
 

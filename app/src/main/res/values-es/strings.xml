@@ -33,5 +33,6 @@
         <item>GB/s</item>
         <item>TB/s</item>
     </string-array>
+    <string name="share">Compartir</string>
 
 </resources>

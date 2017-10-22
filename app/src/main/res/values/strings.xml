@@ -13,4 +13,5 @@
     <string name="stringYears">year(s)</string>
     <string name="sDownloadMessage">Download should be done in: \n\n</string>
     <string name="fyi">Results may vary depending on the internet connection stability of your device.</string>
+    <string name="share">Share</string>
 </resources>

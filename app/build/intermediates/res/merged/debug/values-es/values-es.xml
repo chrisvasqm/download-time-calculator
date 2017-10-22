@@ -46,6 +46,7 @@
     <string name="sFileSize">Tamaño de archivo</string>
     <string name="sProgress">Progreso</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="share">Compartir</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="stringDays">día(s)</string>
     <string name="stringMonths">mes(es)</string>
