@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         seekbar_main_downloaded.setOnSeekBarChangeListener(onSeekBarChangeListener)
 
-        imgBtnShare.setOnClickListener { shareDownloadDetails() }
+        fabShare.setOnClickListener { shareDownloadDetails() }
     }
 
     private fun updateDownloadTime() {
