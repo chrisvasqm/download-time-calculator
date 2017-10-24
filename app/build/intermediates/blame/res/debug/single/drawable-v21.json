@@ -12,12 +12,12 @@
         "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
-        "merged": "D:\\home\\chris\\AndroidStudioProjects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "D:\\home\\chris\\.android\\build-cache\\4826df3ed0067e3b8428cb0b8ae9c7d871c3d2b8\\output\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
         "source": "C:\\Users\\chris\\.android\\build-cache\\3b6e7e7c4581e444088b207f9bb4e99beadbb240\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "D:\\home\\chris\\AndroidStudioProjects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "D:\\home\\chris\\.android\\build-cache\\4826df3ed0067e3b8428cb0b8ae9c7d871c3d2b8\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "D:\\home\\chris\\AndroidStudioProjects\\android-down\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
