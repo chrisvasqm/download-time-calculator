@@ -985,20 +985,27 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 2488,
-                    "endColumn": 132,
-                    "endOffset": 2616
+                    "endColumn": 41,
+                    "endOffset": 2525
                 },
                 "from": {
-                    "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1329,
+                        "endColumn": 41,
+                        "endOffset": 1366
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 2621,
-                    "endColumn": 54,
-                    "endOffset": 2671
+                    "startOffset": 2530,
+                    "endColumn": 132,
+                    "endOffset": 2658
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1008,9 +1015,9 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 2676,
-                    "endColumn": 45,
-                    "endOffset": 2717
+                    "startOffset": 2663,
+                    "endColumn": 54,
+                    "endOffset": 2713
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1020,9 +1027,9 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 2722,
-                    "endColumn": 44,
-                    "endOffset": 2762
+                    "startOffset": 2718,
+                    "endColumn": 45,
+                    "endOffset": 2759
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1032,9 +1039,9 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 2767,
-                    "endColumn": 50,
-                    "endOffset": 2813
+                    "startOffset": 2764,
+                    "endColumn": 44,
+                    "endOffset": 2804
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1044,9 +1051,9 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2818,
-                    "endColumn": 80,
-                    "endOffset": 2894
+                    "startOffset": 2809,
+                    "endColumn": 50,
+                    "endOffset": 2855
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1056,9 +1063,9 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2899,
-                    "endColumn": 56,
-                    "endOffset": 2951
+                    "startOffset": 2860,
+                    "endColumn": 80,
+                    "endOffset": 2936
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1068,9 +1075,9 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2956,
-                    "endColumn": 55,
-                    "endOffset": 3007
+                    "startOffset": 2941,
+                    "endColumn": 56,
+                    "endOffset": 2993
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1080,9 +1087,9 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3012,
-                    "endColumn": 46,
-                    "endOffset": 3054
+                    "startOffset": 2998,
+                    "endColumn": 55,
+                    "endOffset": 3049
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1092,52 +1099,9 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 3059,
-                    "endColumn": 81,
-                    "endOffset": 3136
-                },
-                "from": {
-                    "file": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\values-es\\values-es.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 3141,
-                    "endColumn": 43,
-                    "endOffset": 3180
-                },
-                "from": {
-                    "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml",
-                    "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 1284,
-                        "endColumn": 43,
-                        "endOffset": 1323
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 3185,
-                    "endColumn": 100,
-                    "endOffset": 3281
-                },
-                "from": {
-                    "file": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\values-es\\values-es.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 50,
-                    "startColumn": 4,
-                    "startOffset": 3286,
-                    "endColumn": 45,
-                    "endOffset": 3327
+                    "startOffset": 3054,
+                    "endColumn": 46,
+                    "endOffset": 3096
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1145,11 +1109,47 @@
             },
             {
                 "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3101,
+                    "endColumn": 81,
+                    "endOffset": 3178
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\values-es\\values-es.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3183,
+                    "endColumn": 43,
+                    "endOffset": 3222
+                },
+                "from": {
+                    "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3227,
+                    "endColumn": 100,
+                    "endOffset": 3323
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\.android\\build-cache\\0f5d85e20a032e1f59e4a11a2449f70e3c5f4ffb\\output\\res\\values-es\\values-es.xml"
+                }
+            },
+            {
+                "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 3332,
-                    "endColumn": 48,
-                    "endOffset": 3376
+                    "startOffset": 3328,
+                    "endColumn": 45,
+                    "endOffset": 3369
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1159,9 +1159,9 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 3381,
-                    "endColumn": 49,
-                    "endOffset": 3426
+                    "startOffset": 3374,
+                    "endColumn": 48,
+                    "endOffset": 3418
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
@@ -1171,9 +1171,21 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 3431,
+                    "startOffset": 3423,
+                    "endColumn": 49,
+                    "endOffset": 3468
+                },
+                "from": {
+                    "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3473,
                     "endColumn": 46,
-                    "endOffset": 3473
+                    "endOffset": 3515
                 },
                 "from": {
                     "file": "D:\\Development\\AndroidLab\\projects\\android-down\\app\\src\\main\\res\\values-es\\strings.xml"

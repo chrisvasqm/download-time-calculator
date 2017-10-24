@@ -34,5 +34,6 @@
         <item>TB/s</item>
     </string-array>
     <string name="share">Compartir</string>
+    <string name="clear">Limpiar</string>
 
 </resources>

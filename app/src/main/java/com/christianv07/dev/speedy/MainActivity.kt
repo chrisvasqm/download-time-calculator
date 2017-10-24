@@ -42,37 +42,47 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        spinner_filesize.fill(R.array.file_sizes)
-        spinner_estimatedspeed.fill(R.array.estimated_speeds)
-        spinner_filesize.onItemSelectedListener = spinnerOnItemSelectedListener
-        spinner_estimatedspeed.onItemSelectedListener = spinnerOnItemSelectedListener
+        spinnerFilesize.fill(R.array.file_sizes)
+        spinnerEstimatedspeed.fill(R.array.estimated_speeds)
+        spinnerFilesize.onItemSelectedListener = spinnerOnItemSelectedListener
+        spinnerEstimatedspeed.onItemSelectedListener = spinnerOnItemSelectedListener
 
-        edittext_filesize.addTextChangedListener(textWatcher)
-        edittext_estimatedSpeed.addTextChangedListener(textWatcher)
+        editFilesize.addTextChangedListener(textWatcher)
+        editEstimatedSpeed.addTextChangedListener(textWatcher)
 
-        seekbar_main_downloaded.setOnSeekBarChangeListener(onSeekBarChangeListener)
+        seekbarDownloaded.setOnSeekBarChangeListener(onSeekBarChangeListener)
 
-        fabShare.setOnClickListener { shareDownloadDetails() }
+        btnShare.setOnClickListener { shareDownloadDetails() }
+        btnClear.setOnClickListener { setDefaultViewValues() }
+    }
+
+    private fun setDefaultViewValues() {
+        spinnerFilesize.fill(R.array.file_sizes)
+        spinnerEstimatedspeed.fill(R.array.estimated_speeds)
+        editFilesize.setText("")
+        editEstimatedSpeed.setText("")
+        seekbarDownloaded.progress = 0
     }
 
     private fun updateDownloadTime() {
-        val fileSize = when (spinner_filesize.selectedItem.toString()) {
-            "KB" -> byteConverter.toKB(edittext_filesize.getDoubleOrZero())
-            "MB" -> byteConverter.toMB(edittext_filesize.getDoubleOrZero())
-            "GB" -> byteConverter.toGB(edittext_filesize.getDoubleOrZero())
-            "TB" -> byteConverter.toTB(edittext_filesize.getDoubleOrZero())
+        val fileSizeSpinnerValue = spinnerFilesize.selectedItem.toString()
+        val fileSize = when (fileSizeSpinnerValue) {
+            "KB" -> byteConverter.toKB(editFilesize.getDoubleOrZero())
+            "MB" -> byteConverter.toMB(editFilesize.getDoubleOrZero())
+            "GB" -> byteConverter.toGB(editFilesize.getDoubleOrZero())
+            "TB" -> byteConverter.toTB(editFilesize.getDoubleOrZero())
             else -> 0.0
         }
 
-        val estimatedSpeed = when (spinner_estimatedspeed.selectedItem.toString()) {
-            "KB/s" -> byteConverter.toKB(edittext_estimatedSpeed.getDoubleOrZero())
-            "MB/s" -> byteConverter.toMB(edittext_estimatedSpeed.getDoubleOrZero())
-            "GB/s" -> byteConverter.toGB(edittext_estimatedSpeed.getDoubleOrZero())
-            "TB/s" -> byteConverter.toTB(edittext_estimatedSpeed.getDoubleOrZero())
+        val estimatedSpeed = when (spinnerEstimatedspeed.selectedItem.toString()) {
+            "KB/s" -> byteConverter.toKB(editEstimatedSpeed.getDoubleOrZero())
+            "MB/s" -> byteConverter.toMB(editEstimatedSpeed.getDoubleOrZero())
+            "GB/s" -> byteConverter.toGB(editEstimatedSpeed.getDoubleOrZero())
+            "TB/s" -> byteConverter.toTB(editEstimatedSpeed.getDoubleOrZero())
             else -> 0.0
         }
 
-        val downloadProgress = seekbar_main_downloaded.progress.toDouble()
+        val downloadProgress = seekbarDownloaded.progress.toDouble()
 
         val downloadTimeCalculator = DownloadTimeCalculator(fileSize, estimatedSpeed, downloadProgress)
 
@@ -83,10 +93,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun shareDownloadDetails() {
-        val fileSize = "${edittext_filesize.text}${spinner_filesize.selectedItem}"
+        val fileSize = "${editFilesize.text}${spinnerFilesize.selectedItem}"
         val time = "${textView_cardView_hours.text}:${textView_cardView_minutes.text}:${textView_cardView_seconds.text}"
-        val estimatedSpeed = "${edittext_estimatedSpeed.text}${spinner_estimatedspeed.selectedItem}"
-        val progress = seekbar_main_downloaded.progress.toString()
+        val estimatedSpeed = "${editEstimatedSpeed.text}${spinnerEstimatedspeed.selectedItem}"
+        val progress = seekbarDownloaded.progress.toString()
         val downloadDetails = "A file of $fileSize would take $time to download/transfer at a speed of $estimatedSpeed with $progress% already downloaded."
 
         val sendDetailsIntent = Intent()

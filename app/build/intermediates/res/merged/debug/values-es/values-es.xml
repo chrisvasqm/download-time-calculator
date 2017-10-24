@@ -36,6 +36,7 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
     <string name="app_name">Down</string>
+    <string name="clear">Limpiar</string>
     <string name="fyi">El resultado puede variar dependiendo de la estabilidad de la conexion de internet de tu dispositivo</string>
     <string name="menuRate">Califica esta app</string>
     <string name="sBarPercentage">0%</string>
