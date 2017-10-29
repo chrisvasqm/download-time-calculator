@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Down</string>
+    <string name="app_name">Calculador de tiempo de descarga</string>
     <string name="menuRate">Califica esta app</string>
 
     <string name="sFileSize">Tamaño de archivo</string>

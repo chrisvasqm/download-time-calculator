@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Down</string>
+    <string name="app_name">Download Time Calculator</string>
     <string name="menuRate">Rate this app</string>
     <string name="sFileSize">File size</string>
     <string name="sEstSpeed">Estimated Speed</string>
