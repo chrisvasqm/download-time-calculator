@@ -148,7 +148,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/sFileSize"
+                android:hint="@string/file_size"
                 android:inputType="numberDecimal" />
 
         </android.support.design.widget.TextInputLayout>
@@ -182,7 +182,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/sProgress"
+            android:text="@string/progress"
             android:textColor="@color/textColorSecondary"
             android:textSize="16sp"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -198,7 +198,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/sBarPercentage"
+            android:text="@string/percentage"
             android:textAlignment="center"
             android:textColor="@color/textColorSecondary"
             android:textSize="18sp"
@@ -232,7 +232,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/sEstSpeed"
+                android:hint="@string/estimated_speed"
                 android:inputType="numberDecimal" />
         </android.support.design.widget.TextInputLayout>
 

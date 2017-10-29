@@ -274,7 +274,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="@string/twitter_handle" />
+                                android:text="@string/handle_twitter" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -321,7 +321,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="@string/christianvasquez" />
+                                android:text="@string/handle_plus" />
                         </LinearLayout>
 
                     </LinearLayout>

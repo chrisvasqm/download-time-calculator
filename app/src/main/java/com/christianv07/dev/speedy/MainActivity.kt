@@ -60,15 +60,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun sendFeedback(): Boolean {
-        val feedback = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", getString(R.string.authorEmail), null))
+        val feedback = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", getString(R.string.author_email), null))
         feedback.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.feedback))
-        startActivity(Intent.createChooser(feedback, getString(R.string.sendFeedback)))
+        startActivity(Intent.createChooser(feedback, getString(R.string.send_feedback)))
         return true
     }
 
     private fun gotoPlayStorePage(): Boolean {
         val rate = Intent(Intent.ACTION_VIEW)
-        rate.data = Uri.parse(getString(R.string.playstoreUrl))
+        rate.data = Uri.parse(getString(R.string.url_playstore))
         startActivity(rate)
         return true
     }

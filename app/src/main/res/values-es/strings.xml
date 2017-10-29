@@ -1,39 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Calculador de tiempo de descarga</string>
-    <string name="menuRate">Califica esta app</string>
-
-    <string name="sFileSize">Tamaño de archivo</string>
-    <string name="sEstSpeed">Velocidad estimada</string>
-    <string name="sProgress">Progreso</string>
-    <string name="sBarPercentage">0%</string>
-    <string name="sBtnCalculate">Calcular</string>
-    <string name="sBtnAlert">Cerrar</string>
-
-    <string name="stringDays">día(s)</string>
-    <string name="stringWeeks">semana(s)</string>
-    <string name="stringMonths">mes(es)</string>
-    <string name="stringYears">año(s)</string>
-
-    <string name="sDownloadMessage">La descarga deberia acabar en: \n\n</string>
-    <string name="fyi">El resultado puede variar dependiendo de la estabilidad de la conexion de internet de tu dispositivo</string>
-
-    <string-array name="file_sizes">
-        <item>KB</item>
-        <item>MB</item>
-        <item>GB</item>
-        <item>TB</item>
-    </string-array>
-    <string-array name="estimated_speeds">
-        <item>Kbps</item>
-        <item>Mbps</item>
-        <item>Gbps</item>
-        <item>Tbps</item>
-        <item>KB/s</item>
-        <item>MB/s</item>
-        <item>GB/s</item>
-        <item>TB/s</item>
-    </string-array>
+    <string name="app_name">Download Time Calculator</string>
+    <string name="file_size">Tamaño de archivo</string>
+    <string name="estimated_speed">Velocidad estimada</string>
+    <string name="progress">Progreso</string>
+    <string name="percentage">0%</string>
     <string name="share">Compartir</string>
     <string name="clear">Limpiar</string>
-
+    <string name="about">Acerca</string>
+    <string name="feedback">Recomendacion</string>
+    <string name="rate">Califica</string>
+    <string name="send_feedback">Enviar recomendacion</string>
+    <string name="fork_on_github">Hacer fork en GitHub</string>
+    <string name="version">Version</string>
+    <string name="app">Aplicacion</string>
+    <string name="author">Autor</string>
+    <string name="dominican_republic">Republica Dominicana</string>
+    <string name="follow_him_on_twitter">Siguelo en Twitter</string>
 </resources>
