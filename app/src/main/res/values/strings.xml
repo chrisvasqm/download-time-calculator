@@ -12,4 +12,18 @@
     <string name="playstoreUrl">https://play.google.com/store/apps/details?id=com.christianv07.dev.speedy</string>
     <string name="authorEmail">christianvasquezmelo@gmail.com</string>
     <string name="sendFeedback">Send feedback</string>
+    <string name="fork_on_github">Fork on GitHub</string>
+    <string name="version">Version</string>
+    <string name="app">App</string>
+    <string name="url_github_repository">https://github.com/chrisvasqm/android-down</string>
+    <string name="author">Author</string>
+    <string name="author_name">Christian Vasquez</string>
+    <string name="dominican_republic">Dominican Republic</string>
+    <string name="twitter">Twitter</string>
+    <string name="follow_him_on_twitter">Follow him on Twitter</string>
+    <string name="url_profile_twitter">https://twitter.com/chrisvasqm</string>
+    <string name="url_profile_plus">https://plus.google.com/+ChristianVasquez</string>
+    <string name="twitter_handle">\@chrisvasqm</string>
+    <string name="google">Google+</string>
+    <string name="christianvasquez">+ChristianVasquez</string>
 </resources>

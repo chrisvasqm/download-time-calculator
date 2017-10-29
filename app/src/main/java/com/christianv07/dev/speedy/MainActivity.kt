@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.Menu
@@ -76,7 +77,7 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
+        setSupportActionBar(toolbar as Toolbar?)
 
         spinnerFilesize.fill(R.array.file_sizes)
         spinnerEstimatedspeed.fill(R.array.estimated_speeds)
