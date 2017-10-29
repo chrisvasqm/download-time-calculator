@@ -1,18 +1,23 @@
 package com.christianv07.dev.speedy
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import android.widget.SeekBar
 import com.christianv07.dev.speedy.extension.fill
 import com.christianv07.dev.speedy.extension.getDoubleOrZero
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.startActivity
 
 class MainActivity : AppCompatActivity() {
+    private val context = this
     private val byteConverter = ByteConverter()
     private val spinnerOnItemSelectedListener = object : AdapterView.OnItemSelectedListener {
         override fun onNothingSelected(p0: AdapterView<*>?) {}
@@ -34,6 +39,37 @@ class MainActivity : AppCompatActivity() {
             textview_percent.text = "$progress%"
             updateDownloadTime()
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?) = when (item?.itemId) {
+        R.id.menuAbout -> displayAboutScreen()
+        R.id.menuFeedback -> sendFeedback()
+        R.id.menuRate -> gotoPlayStorePage()
+        else -> super.onOptionsItemSelected(item)
+    }
+
+    private fun displayAboutScreen(): Boolean {
+        startActivity<AboutActivity>()
+        return true
+    }
+
+    private fun sendFeedback(): Boolean {
+        val feedback = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", getString(R.string.authorEmail), null))
+        feedback.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.feedback))
+        startActivity(Intent.createChooser(feedback, getString(R.string.sendFeedback)))
+        return true
+    }
+
+    private fun gotoPlayStorePage(): Boolean {
+        val rate = Intent(Intent.ACTION_VIEW)
+        rate.data = Uri.parse(getString(R.string.playstoreUrl))
+        startActivity(rate)
+        return true
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,18 +1,15 @@
 <resources>
     <string name="app_name">Download Time Calculator</string>
-    <string name="menuRate">Rate this app</string>
     <string name="sFileSize">File size</string>
     <string name="sEstSpeed">Estimated Speed</string>
     <string name="sProgress">Progress</string>
     <string name="sBarPercentage">0%</string>
-    <string name="sBtnCalculate">Calculate</string>
-    <string name="sBtnAlert">Close</string>
-    <string name="stringDays">days(s)</string>
-    <string name="stringWeeks">week(s)</string>
-    <string name="stringMonths">month(s)</string>
-    <string name="stringYears">year(s)</string>
-    <string name="sDownloadMessage">Download should be done in: \n\n</string>
-    <string name="fyi">Results may vary depending on the internet connection stability of your device.</string>
     <string name="share">Share</string>
     <string name="clear">Clear</string>
+    <string name="about">About</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate">Rate</string>
+    <string name="playstoreUrl">https://play.google.com/store/apps/details?id=com.christianv07.dev.speedy</string>
+    <string name="authorEmail">christianvasquezmelo@gmail.com</string>
+    <string name="sendFeedback">Send feedback</string>
 </resources>
