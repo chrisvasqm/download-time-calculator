@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateDownloadTime() {
         val fileSizeSpinnerValue = spinnerFilesize.selectedItem.toString()
-        val fileSize = when (fileSizeSpinnerValue) {
+        val size = when (fileSizeSpinnerValue) {
             "KB" -> byteConverter.toKB(editFilesize.getDoubleOrZero())
             "MB" -> byteConverter.toMB(editFilesize.getDoubleOrZero())
             "GB" -> byteConverter.toGB(editFilesize.getDoubleOrZero())
@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
             else -> 0.0
         }
 
-        val estimatedSpeed = when (spinnerEstimatedspeed.selectedItem.toString()) {
+        val speed = when (spinnerEstimatedspeed.selectedItem.toString()) {
             "KB/s" -> byteConverter.toKB(editEstimatedSpeed.getDoubleOrZero())
             "MB/s" -> byteConverter.toMB(editEstimatedSpeed.getDoubleOrZero())
             "GB/s" -> byteConverter.toGB(editEstimatedSpeed.getDoubleOrZero())
@@ -82,14 +82,13 @@ class MainActivity : AppCompatActivity() {
             else -> 0.0
         }
 
-        val downloadProgress = seekbarDownloaded.progress.toDouble()
+        val progress = seekbarDownloaded.progress.toDouble()
 
-        val downloadTimeCalculator = DownloadTimeCalculator(fileSize, estimatedSpeed, downloadProgress)
+        val download = Download(size, speed, progress)
 
-        //TODO: add formatted to display hours with commas every 3 digits
-        textView_cardView_hours.text = downloadTimeCalculator.getHours().toString()
-        textView_cardView_minutes.text = downloadTimeCalculator.getMinutes().toString()
-        textView_cardView_seconds.text = downloadTimeCalculator.getSeconds().toString()
+        textView_cardView_hours.text = DownloadTime.getHours(download).toString()
+        textView_cardView_minutes.text = DownloadTime.getMinutes(download).toString()
+        textView_cardView_seconds.text = DownloadTime.getSeconds(download).toString()
     }
 
     private fun shareDownloadDetails() {
