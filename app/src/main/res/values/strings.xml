@@ -9,7 +9,7 @@
     <string name="about">About</string>
     <string name="feedback">Feedback</string>
     <string name="rate">Rate</string>
-    <string name="url_playstore" translatable="false">https://play.google.com/store/apps/details?id=com.christianv07.dev.speedy</string>
+    <string name="url_playstore" translatable="false">https://goo.gl/oRZ1xD</string>
     <string name="author_email" translatable="false">christianvasquezmelo@gmail.com</string>
     <string name="send_feedback">Send feedback</string>
     <string name="fork_on_github">Fork on GitHub</string>

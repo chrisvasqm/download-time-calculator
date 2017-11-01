@@ -123,17 +123,19 @@ class MainActivity : AppCompatActivity() {
 
         val download = Download(size, speed, progress)
 
-        textView_cardView_hours.text = DownloadTime.getHours(download).toString()
-        textView_cardView_minutes.text = DownloadTime.getMinutes(download).toString()
-        textView_cardView_seconds.text = DownloadTime.getSeconds(download).toString()
+        txtCardHours.text = DownloadTime.getHours(download).toString()
+        txtCardMinutes.text = DownloadTime.getMinutes(download).toString()
+        txtCardSeconds.text = DownloadTime.getSeconds(download).toString()
     }
 
     private fun shareDownloadDetails() {
         val fileSize = "${editFilesize.text}${spinnerFilesize.selectedItem}"
-        val time = "${textView_cardView_hours.text}:${textView_cardView_minutes.text}:${textView_cardView_seconds.text}"
+        val time = "${txtCardHours.text}:${txtCardMinutes.text}:${txtCardSeconds.text}"
         val estimatedSpeed = "${editEstimatedSpeed.text}${spinnerEstimatedspeed.selectedItem}"
         val progress = seekbarDownloaded.progress.toString()
-        val downloadDetails = "File Size: $fileSize \nDownload Speed: $estimatedSpeed \nTime to download: $time \nCurrent progress: $progress% \n\nWant to find it out yourself? Get the app at: https://goo.gl/oRZ1xD"
+        val downloadDetails = "File Size: $fileSize \nDownload Speed: $estimatedSpeed \n" +
+                "Time to download: $time \nCurrent progress: $progress% \n\nWant to find it out " +
+                "yourself? Get the app at: https://goo.gl/oRZ1xD"
 
         val sendDetailsIntent = Intent()
         sendDetailsIntent.action = Intent.ACTION_SEND

@@ -50,14 +50,14 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView_cardView_seconds"
+                    android:id="@+id/txtCardSeconds"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="0dp"
                     android:text="00"
                     android:textColor="@color/colorPrimary"
                     android:textSize="30sp"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/textView_cardView_minutes"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/txtCardMinutes"
                     app:layout_constraintLeft_toRightOf="@+id/separator_minutes_seconds" />
 
                 <TextView
@@ -68,8 +68,8 @@
                     android:text=":"
                     android:textColor="@color/colorPrimary"
                     android:textSize="30sp"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/textView_cardView_minutes"
-                    app:layout_constraintLeft_toRightOf="@+id/textView_cardView_minutes" />
+                    app:layout_constraintBaseline_toBaselineOf="@+id/txtCardMinutes"
+                    app:layout_constraintLeft_toRightOf="@+id/txtCardMinutes" />
 
                 <TextView
                     android:id="@+id/separator_hour_minutes"
@@ -79,11 +79,11 @@
                     android:text=":"
                     android:textColor="@color/colorPrimary"
                     android:textSize="30sp"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/textView_cardView_minutes"
-                    app:layout_constraintRight_toLeftOf="@+id/textView_cardView_minutes" />
+                    app:layout_constraintBaseline_toBaselineOf="@+id/txtCardMinutes"
+                    app:layout_constraintRight_toLeftOf="@+id/txtCardMinutes" />
 
                 <TextView
-                    android:id="@+id/textView_cardView_minutes"
+                    android:id="@+id/txtCardMinutes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
@@ -99,14 +99,14 @@
                     app:layout_constraintTop_toBottomOf="@+id/cardView_header" />
 
                 <TextView
-                    android:id="@+id/textView_cardView_hours"
+                    android:id="@+id/txtCardHours"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="0dp"
                     android:text="00"
                     android:textColor="@color/colorPrimary"
                     android:textSize="30sp"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/textView_cardView_minutes"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/txtCardMinutes"
                     app:layout_constraintRight_toLeftOf="@+id/separator_hour_minutes" />
 
                 <TextView
