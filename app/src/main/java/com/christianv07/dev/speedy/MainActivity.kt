@@ -14,6 +14,7 @@ import android.widget.AdapterView
 import android.widget.SeekBar
 import com.christianv07.dev.speedy.extension.fill
 import com.christianv07.dev.speedy.extension.getDoubleOrZero
+import com.christianv07.dev.speedy.extension.getIntOrZero
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.startActivity
 
@@ -129,9 +130,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun shareDownloadDetails() {
-        val fileSize = "${editFilesize.text}${spinnerFilesize.selectedItem}"
+        val fileSize = "${editFilesize.getIntOrZero()}${spinnerFilesize.selectedItem}"
         val time = "${txtCardHours.text}:${txtCardMinutes.text}:${txtCardSeconds.text}"
-        val estimatedSpeed = "${editEstimatedSpeed.text}${spinnerEstimatedspeed.selectedItem}"
+        val estimatedSpeed = "${editEstimatedSpeed.getIntOrZero()}${spinnerEstimatedspeed.selectedItem}"
         val progress = seekbarDownloaded.progress.toString()
         val downloadDetails = "File Size: $fileSize \nDownload Speed: $estimatedSpeed \n" +
                 "Time to download: $time \nCurrent progress: $progress% \n\nWant to find it out " +

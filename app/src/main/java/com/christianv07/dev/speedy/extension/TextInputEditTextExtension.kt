@@ -8,3 +8,10 @@ fun TextInputEditText.getDoubleOrZero(): Double {
 
     return this.text.toString().toDouble()
 }
+
+fun TextInputEditText.getIntOrZero(): Int {
+    if (this.text.toString().isBlank())
+        return 0
+
+    return this.text.toString().toInt()
+}
