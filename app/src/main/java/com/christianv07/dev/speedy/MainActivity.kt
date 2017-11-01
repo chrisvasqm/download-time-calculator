@@ -133,7 +133,7 @@ class MainActivity : AppCompatActivity() {
         val time = "${textView_cardView_hours.text}:${textView_cardView_minutes.text}:${textView_cardView_seconds.text}"
         val estimatedSpeed = "${editEstimatedSpeed.text}${spinnerEstimatedspeed.selectedItem}"
         val progress = seekbarDownloaded.progress.toString()
-        val downloadDetails = "A file of $fileSize would take $time to download/transfer at a speed of $estimatedSpeed with $progress% already downloaded."
+        val downloadDetails = "File Size: $fileSize \nDownload Speed: $estimatedSpeed \nTime to download: $time \nCurrent progress: $progress% \n\nWant to find it out yourself? Get the app at: https://goo.gl/oRZ1xD"
 
         val sendDetailsIntent = Intent()
         sendDetailsIntent.action = Intent.ACTION_SEND
