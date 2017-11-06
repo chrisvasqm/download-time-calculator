@@ -5,8 +5,8 @@
     </item>
     <item>
         <bitmap
+            android:gravity="center"
             android:src="@drawable/iconbranded"
-            android:tileMode="disabled"
-            android:gravity="center" />
+            android:tileMode="disabled" />
     </item>
 </layer-list>

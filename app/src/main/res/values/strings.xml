@@ -26,4 +26,5 @@
     <string name="handle_twitter" translatable="false">\@chrisvasqm</string>
     <string name="google" translatable="false">Google+</string>
     <string name="handle_plus" translatable="false">+ChristianVasquez</string>
+    <string name="result">Result</string>
 </resources>
