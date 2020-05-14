@@ -1,6 +1,6 @@
 package com.christianv07.dev.speedy.extension
 
-import android.support.design.widget.TextInputEditText
+import com.google.android.material.textfield.TextInputEditText
 
 fun TextInputEditText.getDoubleOrZero(): Double {
     if (this.text.toString().isBlank() || this.text.toString() == ".")
