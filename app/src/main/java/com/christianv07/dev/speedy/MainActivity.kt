@@ -19,7 +19,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.startActivity
 
 class MainActivity : AppCompatActivity() {
-    private val context = this
     private val byteConverter = ByteConverter()
     private val spinnerOnItemSelectedListener = object : AdapterView.OnItemSelectedListener {
         override fun onNothingSelected(p0: AdapterView<*>?) {}
@@ -48,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem?) = when (item?.itemId) {
+    override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.menuAbout -> displayAboutScreen()
         R.id.menuFeedback -> sendFeedback()
         R.id.menuRate -> gotoPlayStorePage()
@@ -103,8 +102,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateDownloadTime() {
-        val fileSizeSpinnerValue = spinnerFilesize.selectedItem.toString()
-        val size = when (fileSizeSpinnerValue) {
+        val size = when (spinnerFilesize.selectedItem.toString()) {
             "KB" -> byteConverter.toKB(editFilesize.getDoubleOrZero())
             "MB" -> byteConverter.toMB(editFilesize.getDoubleOrZero())
             "GB" -> byteConverter.toGB(editFilesize.getDoubleOrZero())
