@@ -1,6 +1,6 @@
 package com.christianv07.dev.speedy
 
-import junit.framework.Assert.assertEquals
+import com.google.common.truth.Truth.assertThat
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
@@ -18,7 +18,7 @@ class ByteConverterTests {
         val expected = 8192.0
         val actual = byteConverter?.toKB(1.0)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -26,7 +26,7 @@ class ByteConverterTests {
         val expected = 8388608.0
         val actual = byteConverter?.toMB(1.0)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -34,7 +34,7 @@ class ByteConverterTests {
         val expected = 8589934592.0
         val actual = byteConverter?.toGB(1.0)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -42,7 +42,7 @@ class ByteConverterTests {
         val expected = 8.796093022208E12
         val actual = byteConverter?.toTB(1.0)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @After

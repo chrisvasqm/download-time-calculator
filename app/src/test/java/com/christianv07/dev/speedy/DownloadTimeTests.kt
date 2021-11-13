@@ -1,6 +1,6 @@
 package com.christianv07.dev.speedy
 
-import junit.framework.Assert.assertEquals
+import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
@@ -15,7 +15,7 @@ class DownloadTimeTests {
         val expected = 0
         val actual = DownloadTime.getHours(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -25,7 +25,7 @@ class DownloadTimeTests {
         val expected = 0
         val actual = DownloadTime.getHours(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -35,7 +35,7 @@ class DownloadTimeTests {
         val expected = 13
         val actual = DownloadTime.getHours(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -45,7 +45,7 @@ class DownloadTimeTests {
         val expected = 6
         val actual = DownloadTime.getHours(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -55,7 +55,7 @@ class DownloadTimeTests {
         val expected = 0
         val actual = DownloadTime.getMinutes(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -65,7 +65,7 @@ class DownloadTimeTests {
         val expected = 0
         val actual = DownloadTime.getMinutes(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -75,7 +75,7 @@ class DownloadTimeTests {
         val expected = 53
         val actual = DownloadTime.getMinutes(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -85,7 +85,7 @@ class DownloadTimeTests {
         val expected = 56
         val actual = DownloadTime.getMinutes(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -95,7 +95,7 @@ class DownloadTimeTests {
         val expected = 0
         val actual = DownloadTime.getSeconds(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -105,7 +105,7 @@ class DownloadTimeTests {
         val expected = 0
         val actual = DownloadTime.getSeconds(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -115,7 +115,7 @@ class DownloadTimeTests {
         val expected = 20
         val actual = DownloadTime.getSeconds(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
     @Test
@@ -125,7 +125,7 @@ class DownloadTimeTests {
         val expected = 40
         val actual = DownloadTime.getSeconds(download)
 
-        assertEquals(expected, actual)
+        assertThat(actual).isEqualTo(expected)
     }
 
 }

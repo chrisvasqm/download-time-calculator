@@ -1,16 +1,17 @@
 package com.christianv07.dev.speedy
 
 import com.christianv07.dev.speedy.extension.isZeroOrNegative
-import junit.framework.Assert.assertFalse
-import junit.framework.Assert.assertTrue
+import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 
 class DoubleExtensionTests {
 
     @Test
-    fun isZeroOrNegative_isZero_ReturnsTrue() = assertTrue(0.0.isZeroOrNegative())
+    fun isZeroOrNegative_isZero_ReturnsTrue() =
+        assertThat(0.0.isZeroOrNegative()).isTrue()
 
     @Test
-    fun isZeroOrNegative_isGreaterThanZero_ReturnsFalse() = assertFalse(5.0.isZeroOrNegative())
+    fun isZeroOrNegative_isGreaterThanZero_ReturnsFalse() =
+        assertThat(5.0.isZeroOrNegative()).isFalse()
 
 }
