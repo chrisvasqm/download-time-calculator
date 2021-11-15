@@ -18,13 +18,6 @@ class AboutActivity : AppCompatActivity() {
 
         linearForkGithub.setOnClickListener { navigateToGitHubRepository() }
         linearTwitter.setOnClickListener { navigateToTwitterProfile() }
-        linearGooglePlus.setOnClickListener { navigateToGooglePlusProfile() }
-    }
-
-    private fun navigateToGooglePlusProfile() {
-        val plusProfile = Intent(Intent.ACTION_VIEW)
-        plusProfile.data = Uri.parse(getString(R.string.url_profile_plus))
-        startActivity(plusProfile)
     }
 
     private fun navigateToTwitterProfile() {
