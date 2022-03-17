@@ -3,8 +3,6 @@ package com.christianv07.dev.speedy
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.Menu
@@ -12,14 +10,19 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import android.widget.SeekBar
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import com.christianv07.dev.speedy.databinding.ActivityMainBinding
 import com.christianv07.dev.speedy.extension.fill
 import com.christianv07.dev.speedy.extension.getDoubleOrZero
 import com.christianv07.dev.speedy.extension.getIntOrZero
-import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.startActivity
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     private val byteConverter = ByteConverter()
+
     private val spinnerOnItemSelectedListener = object : AdapterView.OnItemSelectedListener {
         override fun onNothingSelected(p0: AdapterView<*>?) {}
         override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
@@ -37,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         override fun onStartTrackingTouch(seekBar: SeekBar?) {}
         override fun onStopTrackingTouch(seekBar: SeekBar?) {}
         override fun onProgressChanged(seekBar: SeekBar?, progress: Int, p2: Boolean) {
-            textview_percent.text = "$progress%"
+            binding.textviewPercent.text = "$progress%"
             updateDownloadTime()
         }
     }
@@ -55,12 +58,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayAboutScreen(): Boolean {
-        startActivity<AboutActivity>()
+        val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
         return true
     }
 
     private fun sendFeedback(): Boolean {
-        val feedback = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", getString(R.string.author_email), null))
+        val feedback = Intent(
+            Intent.ACTION_SENDTO,
+            Uri.fromParts("mailto", getString(R.string.author_email), null)
+        )
         feedback.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.feedback))
         startActivity(Intent.createChooser(feedback, getString(R.string.send_feedback)))
         return true
@@ -76,62 +83,68 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar as Toolbar?)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        spinnerFilesize.fill(R.array.file_sizes)
-        spinnerEstimatedspeed.fill(R.array.estimated_speeds)
-        spinnerFilesize.onItemSelectedListener = spinnerOnItemSelectedListener
-        spinnerEstimatedspeed.onItemSelectedListener = spinnerOnItemSelectedListener
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
 
-        editFilesize.addTextChangedListener(textWatcher)
-        editEstimatedSpeed.addTextChangedListener(textWatcher)
+        binding.spinnerFilesize.fill(R.array.file_sizes)
+        binding.spinnerEstimatedspeed.fill(R.array.estimated_speeds)
+        binding.spinnerFilesize.onItemSelectedListener = spinnerOnItemSelectedListener
+        binding.spinnerEstimatedspeed.onItemSelectedListener = spinnerOnItemSelectedListener
 
-        seekbarDownloaded.setOnSeekBarChangeListener(onSeekBarChangeListener)
+        binding.editFilesize.addTextChangedListener(textWatcher)
+        binding.editEstimatedSpeed.addTextChangedListener(textWatcher)
 
-        btnShare.setOnClickListener { shareDownloadDetails() }
-        btnClear.setOnClickListener { setDefaultViewValues() }
+        binding.seekbarDownloaded.setOnSeekBarChangeListener(onSeekBarChangeListener)
+
+        binding.btnShare.setOnClickListener { shareDownloadDetails() }
+        binding.btnClear.setOnClickListener { setDefaultViewValues() }
     }
 
     private fun setDefaultViewValues() {
-        spinnerFilesize.fill(R.array.file_sizes)
-        spinnerEstimatedspeed.fill(R.array.estimated_speeds)
-        editFilesize.setText("")
-        editEstimatedSpeed.setText("")
-        seekbarDownloaded.progress = 0
+        binding.spinnerFilesize.fill(R.array.file_sizes)
+        binding.spinnerEstimatedspeed.fill(R.array.estimated_speeds)
+        binding.editFilesize.setText("")
+        binding.editEstimatedSpeed.setText("")
+        binding.seekbarDownloaded.progress = 0
     }
 
     private fun updateDownloadTime() {
-        val size = when (spinnerFilesize.selectedItem.toString()) {
-            "KB" -> byteConverter.toKB(editFilesize.getDoubleOrZero())
-            "MB" -> byteConverter.toMB(editFilesize.getDoubleOrZero())
-            "GB" -> byteConverter.toGB(editFilesize.getDoubleOrZero())
-            "TB" -> byteConverter.toTB(editFilesize.getDoubleOrZero())
+        val size = when (binding.spinnerFilesize.selectedItem.toString()) {
+            "KB" -> byteConverter.toKB(binding.editFilesize.getDoubleOrZero())
+            "MB" -> byteConverter.toMB(binding.editFilesize.getDoubleOrZero())
+            "GB" -> byteConverter.toGB(binding.editFilesize.getDoubleOrZero())
+            "TB" -> byteConverter.toTB(binding.editFilesize.getDoubleOrZero())
             else -> 0.0
         }
 
-        val speed = when (spinnerEstimatedspeed.selectedItem.toString()) {
-            "KB/s" -> byteConverter.toKB(editEstimatedSpeed.getDoubleOrZero())
-            "MB/s" -> byteConverter.toMB(editEstimatedSpeed.getDoubleOrZero())
-            "GB/s" -> byteConverter.toGB(editEstimatedSpeed.getDoubleOrZero())
-            "TB/s" -> byteConverter.toTB(editEstimatedSpeed.getDoubleOrZero())
+        val speed = when (binding.spinnerEstimatedspeed.selectedItem.toString()) {
+            "KB/s" -> byteConverter.toKB(binding.editEstimatedSpeed.getDoubleOrZero())
+            "MB/s" -> byteConverter.toMB(binding.editEstimatedSpeed.getDoubleOrZero())
+            "GB/s" -> byteConverter.toGB(binding.editEstimatedSpeed.getDoubleOrZero())
+            "TB/s" -> byteConverter.toTB(binding.editEstimatedSpeed.getDoubleOrZero())
             else -> 0.0
         }
 
-        val progress = seekbarDownloaded.progress.toDouble()
+        val progress = binding.seekbarDownloaded.progress.toDouble()
 
         val download = Download(size, speed, progress)
 
-        txtCardHours.text = DownloadTime.getHours(download).toString()
-        txtCardMinutes.text = DownloadTime.getMinutes(download).toString()
-        txtCardSeconds.text = DownloadTime.getSeconds(download).toString()
+        binding.txtCardHours.text = DownloadTime.getHours(download).toString()
+        binding.txtCardMinutes.text = DownloadTime.getMinutes(download).toString()
+        binding.txtCardSeconds.text = DownloadTime.getSeconds(download).toString()
     }
 
     private fun shareDownloadDetails() {
-        val fileSize = "${editFilesize.getIntOrZero()}${spinnerFilesize.selectedItem}"
-        val time = "${txtCardHours.text}:${txtCardMinutes.text}:${txtCardSeconds.text}"
-        val estimatedSpeed = "${editEstimatedSpeed.getIntOrZero()}${spinnerEstimatedspeed.selectedItem}"
-        val progress = seekbarDownloaded.progress.toString()
+        val fileSize =
+            "${binding.editFilesize.getIntOrZero()}${binding.spinnerFilesize.selectedItem}"
+        val time =
+            "${binding.txtCardHours.text}:${binding.txtCardMinutes.text}:${binding.txtCardSeconds.text}"
+        val estimatedSpeed =
+            "${binding.editEstimatedSpeed.getIntOrZero()}${binding.spinnerEstimatedspeed.selectedItem}"
+        val progress = binding.seekbarDownloaded.progress.toString()
         val downloadDetails = "File Size: $fileSize \nDownload Speed: $estimatedSpeed \n" +
                 "Time to download: $time \nCurrent progress: $progress% \n\nWant to find it out " +
                 "yourself? Get the app at: https://goo.gl/oRZ1xD"

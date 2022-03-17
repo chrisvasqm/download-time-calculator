@@ -5,19 +5,25 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import kotlinx.android.synthetic.main.activity_about.*
+import com.christianv07.dev.speedy.databinding.ActivityAboutBinding
 
 class AboutActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityAboutBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_about)
-        setSupportActionBar(toolbar as Toolbar?)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        txtAppVersion.text = BuildConfig.VERSION_NAME
+        binding = ActivityAboutBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        linearForkGithub.setOnClickListener { navigateToGitHubRepository() }
-        linearTwitter.setOnClickListener { navigateToTwitterProfile() }
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        binding.txtAppVersion.text = BuildConfig.VERSION_NAME
+
+        binding.linearForkGithub.setOnClickListener { navigateToGitHubRepository() }
+        binding.linearTwitter.setOnClickListener { navigateToTwitterProfile() }
     }
 
     private fun navigateToTwitterProfile() {
