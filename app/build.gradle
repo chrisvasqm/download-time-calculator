@@ -51,6 +51,9 @@ dependencies {
 
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    // ViewModel
+    implementation "androidx.activity:activity-ktx:1.4.0"
 }
 
 repositories {
