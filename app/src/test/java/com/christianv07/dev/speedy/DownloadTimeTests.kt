@@ -12,9 +12,10 @@ class DownloadTimeTests {
     @Test
     fun getHoursEstimatedSpeedIsZeroReturnsZero() {
         val download = Download(100000.0, 0.0, 0.0)
+        val downloadTime = DownloadTime(download)
 
         val expected = 0
-        val actual = DownloadTime.getHours(download)
+        val actual = downloadTime.getHours()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -22,9 +23,10 @@ class DownloadTimeTests {
     @Test
     fun getHoursEstimatedSpeedIsNegativeReturnsZero() {
         val download = Download(100000.0, -5.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 0
-        val actual = DownloadTime.getHours(download)
+        val actual = time.getHours()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -32,9 +34,10 @@ class DownloadTimeTests {
     @Test
     fun getHoursDownloadProgressIsZeroReturnsHours() {
         val download = Download(100000.0, 2.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 13
-        val actual = DownloadTime.getHours(download)
+        val actual = time.getHours()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -42,9 +45,10 @@ class DownloadTimeTests {
     @Test
     fun getHoursDownloadProgressIsGreaterThanZeroReturnsHours() {
         val download = Download(100000.0, 2.0, 50.0)
+        val time = DownloadTime(download)
 
         val expected = 6
-        val actual = DownloadTime.getHours(download)
+        val actual = time.getHours()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -52,9 +56,10 @@ class DownloadTimeTests {
     @Test
     fun getMinutesEstimatedSpeedIsZeroReturnsZero() {
         val download = Download(100000.0, 0.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 0
-        val actual = DownloadTime.getMinutes(download)
+        val actual = time.getMinutes()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -62,9 +67,10 @@ class DownloadTimeTests {
     @Test
     fun getMinutesEstimatedSpeedIsNegativeReturnsZero() {
         val download = Download(100000.0, -5.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 0
-        val actual = DownloadTime.getMinutes(download)
+        val actual = time.getMinutes()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -72,9 +78,10 @@ class DownloadTimeTests {
     @Test
     fun getMinutesDownloadProgressIsZeroReturnsMinutes() {
         val download = Download(100000.0, 2.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 53
-        val actual = DownloadTime.getMinutes(download)
+        val actual = time.getMinutes()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -82,9 +89,10 @@ class DownloadTimeTests {
     @Test
     fun getMinutesDownloadProgressIsGreaterThanZeroReturnsMinutes() {
         val download = Download(100000.0, 2.0, 50.0)
+        val time = DownloadTime(download)
 
         val expected = 56
-        val actual = DownloadTime.getMinutes(download)
+        val actual = time.getMinutes()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -92,9 +100,10 @@ class DownloadTimeTests {
     @Test
     fun getSecondsEstimatedSpeedIsZeroReturnsZero() {
         val download = Download(100000.0, 0.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 0
-        val actual = DownloadTime.getSeconds(download)
+        val actual = time.getSeconds()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -102,9 +111,10 @@ class DownloadTimeTests {
     @Test
     fun getSecondsEstimatedSpeedIsNegativeReturnsZero() {
         val download = Download(100000.0, -5.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 0
-        val actual = DownloadTime.getSeconds(download)
+        val actual = time.getSeconds()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -112,9 +122,10 @@ class DownloadTimeTests {
     @Test
     fun getSecondsDownloadProgressIsZeroReturnsSeconds() {
         val download = Download(100000.0, 2.0, 0.0)
+        val time = DownloadTime(download)
 
         val expected = 20
-        val actual = DownloadTime.getSeconds(download)
+        val actual = time.getSeconds()
 
         assertThat(actual).isEqualTo(expected)
     }
@@ -122,9 +133,10 @@ class DownloadTimeTests {
     @Test
     fun getSecondsDownloadProgressIsGreaterThanZeroReturnsSeconds() {
         val download = Download(100000.0, 2.0, 50.0)
+        val time = DownloadTime(download)
 
         val expected = 40
-        val actual = DownloadTime.getSeconds(download)
+        val actual = time.getSeconds()
 
         assertThat(actual).isEqualTo(expected)
     }

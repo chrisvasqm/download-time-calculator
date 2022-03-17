@@ -136,10 +136,11 @@ class MainActivity : AppCompatActivity() {
         val progress = binding.seekbarDownloaded.progress.toDouble()
 
         val download = Download(size, speed, progress)
+        val downloadTime = DownloadTime(download)
 
-        binding.txtCardHours.text = DownloadTime.getHours(download).toString()
-        binding.txtCardMinutes.text = DownloadTime.getMinutes(download).toString()
-        binding.txtCardSeconds.text = DownloadTime.getSeconds(download).toString()
+        binding.txtCardHours.text = downloadTime.getHours().toString()
+        binding.txtCardMinutes.text = downloadTime.getMinutes().toString()
+        binding.txtCardSeconds.text = downloadTime.getSeconds().toString()
     }
 
     private fun shareDownloadDetails() {
