@@ -1,6 +1,7 @@
 package com.christianv07.dev.speedy
 
 import com.christianv07.dev.speedy.extension.isZeroOrNegative
+import com.christianv07.dev.speedy.model.Download
 
 class DownloadTime {
 

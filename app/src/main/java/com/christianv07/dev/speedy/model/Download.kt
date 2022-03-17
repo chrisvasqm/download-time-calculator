@@ -1,4 +1,4 @@
-package com.christianv07.dev.speedy
+package com.christianv07.dev.speedy.model
 
 data class Download(
         val size: Double,

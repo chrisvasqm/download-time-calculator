@@ -1,5 +1,6 @@
 package com.christianv07.dev.speedy
 
+import com.christianv07.dev.speedy.model.Download
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith

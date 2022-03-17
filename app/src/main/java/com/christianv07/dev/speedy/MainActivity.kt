@@ -16,6 +16,7 @@ import com.christianv07.dev.speedy.databinding.ActivityMainBinding
 import com.christianv07.dev.speedy.extension.fill
 import com.christianv07.dev.speedy.extension.getDoubleOrZero
 import com.christianv07.dev.speedy.extension.getIntOrZero
+import com.christianv07.dev.speedy.model.Download
 
 class MainActivity : AppCompatActivity() {
 
