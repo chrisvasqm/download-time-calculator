@@ -1,4 +1,4 @@
-package com.christianv07.dev.speedy.ui
+package com.christianv07.dev.speedy.ui.about
 
 import android.content.Intent
 import android.net.Uri

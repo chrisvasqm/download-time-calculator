@@ -1,4 +1,4 @@
-package com.christianv07.dev.speedy.ui
+package com.christianv07.dev.speedy.ui.main
 
 import android.content.Intent
 import android.net.Uri
@@ -20,6 +20,7 @@ import com.christianv07.dev.speedy.extension.fill
 import com.christianv07.dev.speedy.extension.getDoubleOrZero
 import com.christianv07.dev.speedy.extension.getIntOrZero
 import com.christianv07.dev.speedy.model.Download
+import com.christianv07.dev.speedy.ui.about.AboutActivity
 
 class MainActivity : AppCompatActivity() {
 
