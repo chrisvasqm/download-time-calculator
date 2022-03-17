@@ -1,4 +1,4 @@
-package com.christianv07.dev.speedy
+package com.christianv07.dev.speedy.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -12,6 +12,9 @@ import android.widget.AdapterView
 import android.widget.SeekBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import com.christianv07.dev.speedy.ByteConverter
+import com.christianv07.dev.speedy.DownloadTime
+import com.christianv07.dev.speedy.R
 import com.christianv07.dev.speedy.databinding.ActivityMainBinding
 import com.christianv07.dev.speedy.extension.fill
 import com.christianv07.dev.speedy.extension.getDoubleOrZero

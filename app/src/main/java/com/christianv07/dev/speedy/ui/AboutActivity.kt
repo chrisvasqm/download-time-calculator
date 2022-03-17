@@ -1,10 +1,12 @@
-package com.christianv07.dev.speedy
+package com.christianv07.dev.speedy.ui
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import com.christianv07.dev.speedy.BuildConfig
+import com.christianv07.dev.speedy.R
 import com.christianv07.dev.speedy.databinding.ActivityAboutBinding
 
 class AboutActivity : AppCompatActivity() {
