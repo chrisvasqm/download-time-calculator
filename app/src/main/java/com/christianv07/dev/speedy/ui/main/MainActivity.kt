@@ -34,9 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnClear.setOnClickListener {
-            binding.editFilesize.setText("")
-            binding.editEstimatedSpeed.setText("")
-            binding.seekbarDownloaded.progress = 0
+            resetFields()
         }
     }
 
@@ -84,6 +82,12 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
+    }
+
+    private fun resetFields() {
+        binding.editFilesize.setText("")
+        binding.editEstimatedSpeed.setText("")
+        binding.seekbarDownloaded.progress = 0
     }
 }
 
