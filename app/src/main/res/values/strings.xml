@@ -25,4 +25,5 @@
     <string name="handle_twitter" translatable="false">\@Khrixuz7</string>
     <string name="handle_plus" translatable="false">+ChristianVasquez</string>
     <string name="result">Result</string>
+    <string name="default_result">00:00:00</string>
 </resources>
