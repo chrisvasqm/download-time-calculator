@@ -8,8 +8,8 @@ android {
         applicationId "com.christianv07.dev.speedy"
         minSdkVersion 16
         targetSdkVersion 32
-        versionCode 10
-        versionName "2.0.1"
+        versionCode 11
+        versionName "2.0.2"
         vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
