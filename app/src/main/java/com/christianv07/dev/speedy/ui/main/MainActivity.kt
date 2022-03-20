@@ -95,6 +95,8 @@ class MainActivity : AppCompatActivity() {
         binding.editFilesize.setText("")
         binding.editEstimatedSpeed.setText("")
         binding.seekbarDownloaded.progress = 0
+        binding.spinnerFilesize.setSelection(0)
+        binding.spinnerEstimatedspeed.setSelection(0)
     }
 
     private fun getFormData() = DownloadTime(
