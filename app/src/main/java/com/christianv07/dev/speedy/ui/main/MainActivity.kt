@@ -1,5 +1,6 @@
 package com.christianv07.dev.speedy.ui.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -39,9 +40,25 @@ class MainActivity : AppCompatActivity() {
             binding.textViewResult?.text = it
         }
 
-        binding.btnClear.setOnClickListener {
-            resetFields()
-        }
+        binding.btnClear.setOnClickListener { resetFields() }
+        binding.btnShare.setOnClickListener { shareResult() }
+    }
+
+    private fun shareResult() {
+        val fileSize = "${binding.editFilesize.text}${binding.spinnerFilesize.selectedItem}"
+        val time = "${binding.textViewResult?.text}"
+        val estimatedSpeed = "${binding.editEstimatedSpeed.text}${binding.spinnerEstimatedspeed.selectedItem}"
+        val progress = binding.seekbarDownloaded.progress.toString()
+        val downloadDetails = "File Size: $fileSize \nDownload Speed: $estimatedSpeed \n" +
+                "Time to download: $time \nCurrent progress: $progress% \n\nWant to find it out " +
+                "yourself? Get the app at: https://goo.gl/oRZ1xD"
+
+        val sendDetailsIntent = Intent()
+        sendDetailsIntent.action = Intent.ACTION_SEND
+        sendDetailsIntent.putExtra(Intent.EXTRA_TEXT, downloadDetails)
+        sendDetailsIntent.type = "text/plain"
+
+        startActivity(Intent.createChooser(sendDetailsIntent, getString(R.string.share)))
     }
 
     private fun setupProgressBar() {
