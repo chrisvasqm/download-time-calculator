@@ -3,6 +3,8 @@ package com.christianv07.dev.speedy.ui.main
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
+import android.widget.AdapterView
 import android.widget.SeekBar
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -30,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         setupProgressBar()
         setupFileSizeTextWatcher()
         setupEstimatedSpeedTextWatcher()
+        setupFileSizeSpinnerListener()
 
         viewModel.result.observe(this) {
             binding.textViewResult?.text = it
@@ -100,6 +103,18 @@ class MainActivity : AppCompatActivity() {
         fileSizeModifier = binding.spinnerFilesize.selectedItem.toString(),
         estimatedSpeedModifier = binding.spinnerEstimatedspeed.selectedItem.toString()
     )
+
+    private fun setupFileSizeSpinnerListener() {
+        binding.spinnerFilesize.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(adapterView: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+                viewModel.calculateResult(getFormData())
+            }
+
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+            }
+
+        }
+    }
 
 
 }
