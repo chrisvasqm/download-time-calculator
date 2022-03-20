@@ -99,14 +99,6 @@ class MainActivity : AppCompatActivity() {
         binding.spinnerEstimatedspeed.setSelection(0)
     }
 
-    private fun getFormData() = DownloadTime(
-        fileSize = binding.editFilesize.text.toDouble(),
-        estimatedSpeed = binding.editEstimatedSpeed.text.toDouble(),
-        progress = binding.seekbarDownloaded.progress.toDouble(),
-        fileSizeModifier = binding.spinnerFilesize.selectedItem.toString(),
-        estimatedSpeedModifier = binding.spinnerEstimatedspeed.selectedItem.toString()
-    )
-
     private fun setupFileSizeSpinnerListener() {
         binding.spinnerFilesize.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(adapterView: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
@@ -131,6 +123,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun getFormData() = DownloadTime(
+        fileSize = binding.editFilesize.text.toDouble(),
+        estimatedSpeed = binding.editEstimatedSpeed.text.toDouble(),
+        progress = binding.seekbarDownloaded.progress.toDouble(),
+        fileSizeModifier = binding.spinnerFilesize.selectedItem.toString(),
+        estimatedSpeedModifier = binding.spinnerEstimatedspeed.selectedItem.toString()
+    )
 
 }
 
