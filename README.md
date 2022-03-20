@@ -16,7 +16,3 @@ This app helps users find how long would a file transfer or download take based 
 - MB/s
 - GB/s
 - TB/s
-
-## Tests
-- Unit tests
-- E2E tests with Espresso
