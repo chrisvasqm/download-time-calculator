@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         setupFileSizeTextWatcher()
         setupEstimatedSpeedTextWatcher()
         setupFileSizeSpinnerListener()
+        setupEstimatedSpeedSpinnerListener()
 
         viewModel.result.observe(this) {
             binding.textViewResult?.text = it
@@ -107,6 +108,18 @@ class MainActivity : AppCompatActivity() {
     private fun setupFileSizeSpinnerListener() {
         binding.spinnerFilesize.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(adapterView: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+                viewModel.calculateResult(getFormData())
+            }
+
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+            }
+
+        }
+    }
+
+    private fun setupEstimatedSpeedSpinnerListener() {
+        binding.spinnerEstimatedspeed.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
                 viewModel.calculateResult(getFormData())
             }
 
