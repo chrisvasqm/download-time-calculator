@@ -24,7 +24,7 @@ import org.junit.Test
 class MainActivityTests {
 
     @Test
-    internal fun twentyKbAtTenKBPerSecond_ResultsInTwoSeconds() {
+    fun twentyKbAtTenKBPerSecond_ResultsInTwoSeconds() {
         launchActivity<MainActivity>().use {
             onView(withId(R.id.editFilesize))
                 .perform(typeText("20"))
